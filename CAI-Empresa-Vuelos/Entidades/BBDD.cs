@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 
 namespace CAI_Empresa_Vuelos.Entidades
 {
-    class BBDD
+    public class BBDD
     {
         public static List<Usuario> TraerUsuario()
         {

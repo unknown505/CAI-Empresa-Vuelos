@@ -84,7 +84,7 @@ namespace CAI_Empresa_Vuelos
             //Validar que el usuario registrado corresponda con la contraseña asignada
             else
             {
-                if (ContraseñaIngreso.Text != this.user.contraseña)
+                if (!string.Equals(ContraseñaIngreso.Text, this.user.contraseña, StringComparison.Ordinal))
                 {
                     contraseñaErrorLbl.Text = "La contraseña es incorrecta.";
                     valido = false;
@@ -106,7 +106,6 @@ namespace CAI_Empresa_Vuelos
         {
             Application.Exit();
         }
-
 
     }
 }
