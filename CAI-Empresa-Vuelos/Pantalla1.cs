@@ -64,13 +64,13 @@ namespace CAI_Empresa_Vuelos
             //Validar datos vacios o null en usuairo
             if (string.IsNullOrEmpty(UsuarioIngreso.Text))
             {
-                usuarioErrorLbl.Text = "El usuario no puede estar vacio.";
+                usuarioErrorLbl.Text = "El usuario no puede estar vacío.";
                 valido = false;
             }
             //Validar datos vacios o null en contraseña
             if (string.IsNullOrEmpty(ContraseñaIngreso.Text))
             {
-                contraseñaErrorLbl.Text = "La contraseña no puede estar vacia.";
+                contraseñaErrorLbl.Text = "La contraseña no puede estar vacía.";
                 valido = false;
             }
 
