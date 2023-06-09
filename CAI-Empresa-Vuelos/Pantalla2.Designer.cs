@@ -39,15 +39,16 @@ namespace CAI_Empresa_Vuelos
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 21F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(304, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(203, 38);
+            this.label1.Size = new System.Drawing.Size(208, 38);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Menu Principal";
+            this.label1.Text = "Menú Principal";
             // 
             // buttonReserva
             // 
+            this.buttonReserva.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonReserva.Location = new System.Drawing.Point(240, 109);
             this.buttonReserva.Name = "buttonReserva";
             this.buttonReserva.Size = new System.Drawing.Size(320, 63);
@@ -57,6 +58,7 @@ namespace CAI_Empresa_Vuelos
             // 
             // buttonEdeReserva
             // 
+            this.buttonEdeReserva.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonEdeReserva.Location = new System.Drawing.Point(240, 178);
             this.buttonEdeReserva.Name = "buttonEdeReserva";
             this.buttonEdeReserva.Size = new System.Drawing.Size(320, 63);
@@ -66,6 +68,7 @@ namespace CAI_Empresa_Vuelos
             // 
             // buttonReclamos
             // 
+            this.buttonReclamos.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonReclamos.Location = new System.Drawing.Point(240, 249);
             this.buttonReclamos.Name = "buttonReclamos";
             this.buttonReclamos.Size = new System.Drawing.Size(320, 63);
@@ -75,6 +78,7 @@ namespace CAI_Empresa_Vuelos
             // 
             // buttonVolver
             // 
+            this.buttonVolver.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonVolver.Location = new System.Drawing.Point(240, 319);
             this.buttonVolver.Name = "buttonVolver";
             this.buttonVolver.Size = new System.Drawing.Size(320, 63);

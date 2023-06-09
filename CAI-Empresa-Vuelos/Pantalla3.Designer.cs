@@ -38,42 +38,45 @@ namespace CAI_Empresa_Vuelos
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(37, 28);
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 38);
+            this.label1.Size = new System.Drawing.Size(127, 38);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Ventas";
+            this.label1.Text = "Reservas";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(37, 81);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(28, 71);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 15);
+            this.label2.Size = new System.Drawing.Size(150, 21);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Seleccion producto";
+            this.label2.Text = "Seleccione producto";
             // 
             // Alojamientos
             // 
             this.Alojamientos.AutoSize = true;
-            this.Alojamientos.Location = new System.Drawing.Point(37, 115);
+            this.Alojamientos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Alojamientos.Location = new System.Drawing.Point(217, 107);
             this.Alojamientos.Name = "Alojamientos";
-            this.Alojamientos.Size = new System.Drawing.Size(90, 19);
+            this.Alojamientos.Size = new System.Drawing.Size(119, 25);
             this.Alojamientos.TabIndex = 2;
             this.Alojamientos.TabStop = true;
-            this.Alojamientos.Text = "Alojamiento";
+            this.Alojamientos.Text = "Alojamientos";
             this.Alojamientos.UseVisualStyleBackColor = true;
             // 
             // Vuelo
             // 
             this.Vuelo.AutoSize = true;
-            this.Vuelo.Location = new System.Drawing.Point(210, 115);
+            this.Vuelo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Vuelo.Location = new System.Drawing.Point(390, 107);
             this.Vuelo.Name = "Vuelo";
-            this.Vuelo.Size = new System.Drawing.Size(55, 19);
+            this.Vuelo.Size = new System.Drawing.Size(75, 25);
             this.Vuelo.TabIndex = 3;
             this.Vuelo.TabStop = true;
-            this.Vuelo.Text = "Vuelo";
+            this.Vuelo.Text = "Vuelos";
             this.Vuelo.UseVisualStyleBackColor = true;
             // 
             // Pantalla3

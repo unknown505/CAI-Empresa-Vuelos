@@ -44,7 +44,7 @@ namespace CAI_Empresa_Vuelos
             // 
             this.Titulo.AutoSize = true;
             this.Titulo.Font = new System.Drawing.Font("Segoe UI", 27F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Titulo.Location = new System.Drawing.Point(257, 50);
+            this.Titulo.Location = new System.Drawing.Point(262, 51);
             this.Titulo.Name = "Titulo";
             this.Titulo.Size = new System.Drawing.Size(289, 48);
             this.Titulo.TabIndex = 0;
@@ -55,7 +55,7 @@ namespace CAI_Empresa_Vuelos
             // 
             this.labelUsuario.AutoSize = true;
             this.labelUsuario.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelUsuario.Location = new System.Drawing.Point(85, 162);
+            this.labelUsuario.Location = new System.Drawing.Point(154, 161);
             this.labelUsuario.Name = "labelUsuario";
             this.labelUsuario.Size = new System.Drawing.Size(79, 28);
             this.labelUsuario.TabIndex = 1;
@@ -65,7 +65,7 @@ namespace CAI_Empresa_Vuelos
             // 
             this.labelContraseña.AutoSize = true;
             this.labelContraseña.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelContraseña.Location = new System.Drawing.Point(85, 236);
+            this.labelContraseña.Location = new System.Drawing.Point(154, 235);
             this.labelContraseña.Name = "labelContraseña";
             this.labelContraseña.Size = new System.Drawing.Size(110, 28);
             this.labelContraseña.TabIndex = 2;
@@ -73,21 +73,22 @@ namespace CAI_Empresa_Vuelos
             // 
             // UsuarioIngreso
             // 
-            this.UsuarioIngreso.Location = new System.Drawing.Point(257, 170);
+            this.UsuarioIngreso.Location = new System.Drawing.Point(326, 169);
             this.UsuarioIngreso.Name = "UsuarioIngreso";
-            this.UsuarioIngreso.Size = new System.Drawing.Size(408, 23);
+            this.UsuarioIngreso.Size = new System.Drawing.Size(289, 23);
             this.UsuarioIngreso.TabIndex = 3;
             // 
             // ContraseñaIngreso
             // 
-            this.ContraseñaIngreso.Location = new System.Drawing.Point(257, 236);
+            this.ContraseñaIngreso.Location = new System.Drawing.Point(326, 235);
             this.ContraseñaIngreso.Name = "ContraseñaIngreso";
-            this.ContraseñaIngreso.Size = new System.Drawing.Size(408, 23);
+            this.ContraseñaIngreso.Size = new System.Drawing.Size(289, 23);
             this.ContraseñaIngreso.TabIndex = 4;
             // 
             // buttonIngreso
             // 
-            this.buttonIngreso.Location = new System.Drawing.Point(484, 322);
+            this.buttonIngreso.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonIngreso.Location = new System.Drawing.Point(457, 321);
             this.buttonIngreso.Name = "buttonIngreso";
             this.buttonIngreso.Size = new System.Drawing.Size(131, 49);
             this.buttonIngreso.TabIndex = 5;
@@ -97,7 +98,8 @@ namespace CAI_Empresa_Vuelos
             // 
             // buttonSalir
             // 
-            this.buttonSalir.Location = new System.Drawing.Point(194, 322);
+            this.buttonSalir.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonSalir.Location = new System.Drawing.Point(224, 321);
             this.buttonSalir.Name = "buttonSalir";
             this.buttonSalir.Size = new System.Drawing.Size(131, 50);
             this.buttonSalir.TabIndex = 6;
@@ -108,7 +110,8 @@ namespace CAI_Empresa_Vuelos
             // usuarioErrorLbl
             // 
             this.usuarioErrorLbl.AutoSize = true;
-            this.usuarioErrorLbl.Location = new System.Drawing.Point(257, 196);
+            this.usuarioErrorLbl.ForeColor = System.Drawing.Color.Red;
+            this.usuarioErrorLbl.Location = new System.Drawing.Point(326, 195);
             this.usuarioErrorLbl.Name = "usuarioErrorLbl";
             this.usuarioErrorLbl.Size = new System.Drawing.Size(0, 15);
             this.usuarioErrorLbl.TabIndex = 7;
@@ -116,7 +119,8 @@ namespace CAI_Empresa_Vuelos
             // contraseñaErrorLbl
             // 
             this.contraseñaErrorLbl.AutoSize = true;
-            this.contraseñaErrorLbl.Location = new System.Drawing.Point(257, 262);
+            this.contraseñaErrorLbl.ForeColor = System.Drawing.Color.Red;
+            this.contraseñaErrorLbl.Location = new System.Drawing.Point(326, 261);
             this.contraseñaErrorLbl.Name = "contraseñaErrorLbl";
             this.contraseñaErrorLbl.Size = new System.Drawing.Size(0, 15);
             this.contraseñaErrorLbl.TabIndex = 8;
