@@ -58,7 +58,7 @@ namespace CAI_Empresa_Vuelos
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(28, 71);
+            this.label2.Location = new System.Drawing.Point(16, 66);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(150, 21);
             this.label2.TabIndex = 1;
@@ -147,7 +147,7 @@ namespace CAI_Empresa_Vuelos
             // 
             // buttonBuscar
             // 
-            this.buttonBuscar.Location = new System.Drawing.Point(685, 149);
+            this.buttonBuscar.Location = new System.Drawing.Point(685, 148);
             this.buttonBuscar.Name = "buttonBuscar";
             this.buttonBuscar.Size = new System.Drawing.Size(68, 24);
             this.buttonBuscar.TabIndex = 11;
