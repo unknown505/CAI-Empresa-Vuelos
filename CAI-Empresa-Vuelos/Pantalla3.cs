@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace CAI_Empresa_Vuelos
 {
-    public partial class Form1 : Form
+    public partial class Pantalla3 : Form
     {
-        public Form1()
+        public Pantalla3()
         {
             InitializeComponent();
         }
-
     }
 }
