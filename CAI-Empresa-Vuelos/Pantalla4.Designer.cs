@@ -167,6 +167,7 @@
             this.buttonContinuar.TabIndex = 17;
             this.buttonContinuar.Text = "Continuar";
             this.buttonContinuar.UseVisualStyleBackColor = true;
+            this.buttonContinuar.Click += new System.EventHandler(this.buttonContinuar_Click);
             // 
             // buttonVolver
             // 

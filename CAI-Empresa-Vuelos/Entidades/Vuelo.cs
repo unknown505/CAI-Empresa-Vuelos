@@ -21,11 +21,13 @@ namespace CAI_Empresa_Vuelos.Entidades
 
         public class TarifaVuelo
         {
-            public char clase { get; set; } // Clase solo pueden ser E P B F
-            public char tipoPasajero { get; set; } // Tipos de pasajeros son A M I 
+            public string clase { get; set; } // Clase solo pueden ser E P B F
+            public string tipoPasajero { get; set; } // Tipos de pasajeros son A M I 
             public int precio { get; set; }
             public int disponibilidad { get; set; }
 
         }
     }
+
+    
 }

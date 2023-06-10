@@ -38,10 +38,11 @@ namespace CAI_Empresa_Vuelos
             this.comboBoxOrigen = new System.Windows.Forms.ComboBox();
             this.comboBoxDestino = new System.Windows.Forms.ComboBox();
             this.LblFecha = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.buttonBuscar = new System.Windows.Forms.Button();
             this.Lblinfo = new System.Windows.Forms.Label();
-            this.checkListBoxDatos = new System.Windows.Forms.CheckedListBox();
+            this.comboBoxFecha = new System.Windows.Forms.ComboBox();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.buttonVolver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -67,83 +68,76 @@ namespace CAI_Empresa_Vuelos
             // Alojamientos
             // 
             this.Alojamientos.AutoSize = true;
+            this.Alojamientos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Alojamientos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Alojamientos.Location = new System.Drawing.Point(194, 107);
             this.Alojamientos.Name = "Alojamientos";
             this.Alojamientos.Size = new System.Drawing.Size(119, 25);
             this.Alojamientos.TabIndex = 2;
-            this.Alojamientos.TabStop = true;
             this.Alojamientos.Text = "Alojamientos";
             this.Alojamientos.UseVisualStyleBackColor = true;
+            this.Alojamientos.CheckedChanged += new System.EventHandler(this.Alojamientos_CheckedChanged);
             // 
             // Vuelo
             // 
             this.Vuelo.AutoSize = true;
+            this.Vuelo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Vuelo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Vuelo.Location = new System.Drawing.Point(471, 107);
             this.Vuelo.Name = "Vuelo";
             this.Vuelo.Size = new System.Drawing.Size(75, 25);
             this.Vuelo.TabIndex = 3;
-            this.Vuelo.TabStop = true;
             this.Vuelo.Text = "Vuelos";
             this.Vuelo.UseVisualStyleBackColor = true;
+            this.Vuelo.CheckedChanged += new System.EventHandler(this.Vuelo_CheckedChanged);
             // 
             // LblOrigen
             // 
             this.LblOrigen.AutoSize = true;
             this.LblOrigen.Location = new System.Drawing.Point(16, 154);
             this.LblOrigen.Name = "LblOrigen";
-            this.LblOrigen.Size = new System.Drawing.Size(43, 15);
+            this.LblOrigen.Size = new System.Drawing.Size(0, 15);
             this.LblOrigen.TabIndex = 4;
-            this.LblOrigen.Text = "Origen";
             this.LblOrigen.Visible = false;
             // 
             // LblDestino
             // 
             this.LblDestino.AutoSize = true;
-            this.LblDestino.Location = new System.Drawing.Point(229, 152);
+            this.LblDestino.Location = new System.Drawing.Point(194, 154);
             this.LblDestino.Name = "LblDestino";
-            this.LblDestino.Size = new System.Drawing.Size(47, 15);
+            this.LblDestino.Size = new System.Drawing.Size(0, 15);
             this.LblDestino.TabIndex = 5;
-            this.LblDestino.Text = "Destino";
             this.LblDestino.Visible = false;
             // 
             // comboBoxOrigen
             // 
             this.comboBoxOrigen.FormattingEnabled = true;
-            this.comboBoxOrigen.Location = new System.Drawing.Point(79, 151);
+            this.comboBoxOrigen.Location = new System.Drawing.Point(67, 150);
             this.comboBoxOrigen.Name = "comboBoxOrigen";
             this.comboBoxOrigen.Size = new System.Drawing.Size(121, 23);
             this.comboBoxOrigen.TabIndex = 6;
             this.comboBoxOrigen.Visible = false;
+            this.comboBoxOrigen.SelectedIndexChanged += new System.EventHandler(this.comboBoxOrigen_SelectedIndexChanged);
             // 
             // comboBoxDestino
             // 
             this.comboBoxDestino.FormattingEnabled = true;
-            this.comboBoxDestino.Location = new System.Drawing.Point(291, 149);
+            this.comboBoxDestino.Location = new System.Drawing.Point(247, 150);
             this.comboBoxDestino.Name = "comboBoxDestino";
             this.comboBoxDestino.Size = new System.Drawing.Size(121, 23);
             this.comboBoxDestino.TabIndex = 7;
             this.comboBoxDestino.Visible = false;
+            this.comboBoxDestino.SelectedIndexChanged += new System.EventHandler(this.comboBoxDestino_SelectedIndexChanged);
             // 
             // LblFecha
             // 
             this.LblFecha.AutoSize = true;
-            this.LblFecha.Location = new System.Drawing.Point(437, 152);
+            this.LblFecha.Location = new System.Drawing.Point(389, 153);
             this.LblFecha.Name = "LblFecha";
-            this.LblFecha.Size = new System.Drawing.Size(72, 15);
+            this.LblFecha.Size = new System.Drawing.Size(41, 15);
             this.LblFecha.TabIndex = 8;
-            this.LblFecha.Text = "Fecha Salida";
+            this.LblFecha.Text = "Fecha ";
             this.LblFecha.Visible = false;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(524, 149);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(112, 23);
-            this.dateTimePicker1.TabIndex = 10;
-            this.dateTimePicker1.Visible = false;
             // 
             // buttonBuscar
             // 
@@ -154,6 +148,7 @@ namespace CAI_Empresa_Vuelos
             this.buttonBuscar.Text = "Buscar";
             this.buttonBuscar.UseVisualStyleBackColor = true;
             this.buttonBuscar.Visible = false;
+            this.buttonBuscar.Click += new System.EventHandler(this.buttonBuscar_Click);
             // 
             // Lblinfo
             // 
@@ -163,23 +158,46 @@ namespace CAI_Empresa_Vuelos
             this.Lblinfo.Size = new System.Drawing.Size(0, 15);
             this.Lblinfo.TabIndex = 12;
             // 
-            // checkListBoxDatos
+            // comboBoxFecha
             // 
-            this.checkListBoxDatos.FormattingEnabled = true;
-            this.checkListBoxDatos.Location = new System.Drawing.Point(16, 214);
-            this.checkListBoxDatos.Name = "checkListBoxDatos";
-            this.checkListBoxDatos.Size = new System.Drawing.Size(737, 166);
-            this.checkListBoxDatos.TabIndex = 13;
+            this.comboBoxFecha.FormattingEnabled = true;
+            this.comboBoxFecha.Location = new System.Drawing.Point(452, 150);
+            this.comboBoxFecha.Name = "comboBoxFecha";
+            this.comboBoxFecha.Size = new System.Drawing.Size(182, 23);
+            this.comboBoxFecha.TabIndex = 14;
+            this.comboBoxFecha.Visible = false;
+            this.comboBoxFecha.SelectedIndexChanged += new System.EventHandler(this.comboBoxFecha_SelectedIndexChanged);
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(28, 205);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(606, 166);
+            this.checkedListBox1.TabIndex = 15;
+            this.checkedListBox1.Visible = false;
+            // 
+            // buttonVolver
+            // 
+            this.buttonVolver.Location = new System.Drawing.Point(16, 397);
+            this.buttonVolver.Name = "buttonVolver";
+            this.buttonVolver.Size = new System.Drawing.Size(90, 28);
+            this.buttonVolver.TabIndex = 16;
+            this.buttonVolver.Text = "Volver";
+            this.buttonVolver.UseVisualStyleBackColor = true;
+            this.buttonVolver.Visible = false;
+            this.buttonVolver.Click += new System.EventHandler(this.buttonVolver_Click);
             // 
             // Pantalla3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.checkListBoxDatos);
+            this.Controls.Add(this.buttonVolver);
+            this.Controls.Add(this.checkedListBox1);
+            this.Controls.Add(this.comboBoxFecha);
             this.Controls.Add(this.Lblinfo);
             this.Controls.Add(this.buttonBuscar);
-            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.LblFecha);
             this.Controls.Add(this.comboBoxDestino);
             this.Controls.Add(this.comboBoxOrigen);
@@ -207,9 +225,10 @@ namespace CAI_Empresa_Vuelos
         private System.Windows.Forms.ComboBox comboBoxOrigen;
         private System.Windows.Forms.ComboBox comboBoxDestino;
         private System.Windows.Forms.Label LblFecha;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button buttonBuscar;
         private System.Windows.Forms.Label Lblinfo;
-        private System.Windows.Forms.CheckedListBox checkListBoxDatos;
+        private System.Windows.Forms.ComboBox comboBoxFecha;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.Button buttonVolver;
     }
 }

@@ -12,6 +12,6 @@ namespace CAI_Empresa_Vuelos.Entidades
     {
         public string usuario { get; set; }
 
-        public string contraseña { get; set; }
+        public string contrasena { get; set; }
     }
 }

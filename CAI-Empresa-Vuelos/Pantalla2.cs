@@ -23,5 +23,19 @@ namespace CAI_Empresa_Vuelos
             pantalla1.Show();
             this.Hide();
         }
+
+        private void buttonReserva_Click(object sender, EventArgs e)
+        {
+            Pantalla3 pantalal3 = new Pantalla3();
+            pantalal3.Show();
+            this.Hide();
+        }
+
+        private void buttonEdeReserva_Click(object sender, EventArgs e)
+        {
+            Pantalla5 pantalal5 = new Pantalla5();
+            pantalal5.Show();
+            this.Hide();
+        }
     }
 }

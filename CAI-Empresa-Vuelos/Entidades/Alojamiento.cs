@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CAI_Empresa_Vuelos.Entidades
 {
-    class Alojamiento
+    public class Alojamiento
     {
 
         public int idAlojamientos { get; set; }

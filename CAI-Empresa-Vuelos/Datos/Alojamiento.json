@@ -1,3 +1,31 @@
-{
-
-}
+[
+  {
+    "idAlojamientos": "555",
+    "nombreAlojamiento": "Resplandor",
+    "codigoCiudad": "JFK",
+    "direccion": "Brooklyn, NY 11211, Estados Unidos",
+    "calificacion": "3",
+    "alojamientoDispobiles": 
+    [
+      {
+        "nombreHabitacion": "Habitacion 212",
+        "tarifaHabitacion": 5000,
+        "capacidadHabitacion": 
+        [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 1,
+            "maximoInfantes": 1
+          }
+        ],
+        "fechaHabitacion": 
+        [
+          {
+            "fechaDispHabitacion": "2012-08-23T23:00:00",
+            "cantHabXFecha": 8
+          }
+        ]
+      }
+    ]
+  }
+]

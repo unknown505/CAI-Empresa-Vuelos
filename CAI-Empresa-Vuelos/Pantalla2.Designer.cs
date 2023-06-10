@@ -55,6 +55,7 @@ namespace CAI_Empresa_Vuelos
             this.buttonReserva.TabIndex = 1;
             this.buttonReserva.Text = "Reserva";
             this.buttonReserva.UseVisualStyleBackColor = true;
+            this.buttonReserva.Click += new System.EventHandler(this.buttonReserva_Click);
             // 
             // buttonEdeReserva
             // 
@@ -65,6 +66,7 @@ namespace CAI_Empresa_Vuelos
             this.buttonEdeReserva.TabIndex = 2;
             this.buttonEdeReserva.Text = "Estado de reserva";
             this.buttonEdeReserva.UseVisualStyleBackColor = true;
+            this.buttonEdeReserva.Click += new System.EventHandler(this.buttonEdeReserva_Click);
             // 
             // buttonReclamos
             // 

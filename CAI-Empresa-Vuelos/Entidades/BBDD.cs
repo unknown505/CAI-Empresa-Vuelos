@@ -23,9 +23,25 @@ namespace CAI_Empresa_Vuelos.Entidades
 
             return cliente;
         }
+        //public static Vuelo TraerVueloPorOrigen(string origenIngresado, string destinoIngresado)
+        //{
+        //    List<Vuelo> vuelos = TraerVuelo();
+        //    Vuelo vuelo = vuelos.Where(v => v.origen == origenIngresado && v.destino == destinoIngresado).ToList();
+        //    return vuelo;
+        //}
+        public static List<Vuelo> TraerVuelo()
+        {
+            string vuelo = $"{AppDomain.CurrentDomain.BaseDirectory}/../../../Datos/Vuelo.json";
 
+            return TraerEntidades<Vuelo>(vuelo);
+        }
 
+        public static List<Alojamiento> TraerAlojamiento()
+        {
+            string alojamiento = $"{AppDomain.CurrentDomain.BaseDirectory}/../../../Datos/Alojamiento.json";
 
+            return TraerEntidades<Alojamiento>(alojamiento);
+        }
 
         private static List<T> TraerEntidades<T>(string rutaArchivo)
         {
@@ -37,5 +53,6 @@ namespace CAI_Empresa_Vuelos.Entidades
 
             return entidades;
         }
+
     }
 }
