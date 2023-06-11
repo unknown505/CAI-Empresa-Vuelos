@@ -42,5 +42,12 @@ namespace CAI_Empresa_Vuelos
             File.WriteAllText(rutaArchivo, jsonString);
         }
 
+        private void buttonVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Pantalla3 pantalla3 = new Pantalla3();
+            pantalla3.Show();
+
+        }
     }
 }
