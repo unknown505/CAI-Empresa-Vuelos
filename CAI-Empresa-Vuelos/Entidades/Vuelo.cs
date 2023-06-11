@@ -13,7 +13,7 @@ namespace CAI_Empresa_Vuelos.Entidades
         public string origen { get; set; }
         public string destino { get; set; }
         public DateTime fechaSalida { get; set; }
-        public DateTime fechaArrbo { get; set; }
+        public DateTime fechaArribo { get; set; }
         public TimeSpan tiempoVuelo { get; set; }
         public string aerolinea { get; set; }
         public List<TarifaVuelo> tarifas { get; set; }
@@ -27,6 +27,7 @@ namespace CAI_Empresa_Vuelos.Entidades
             public int disponibilidad { get; set; }
 
         }
+
     }
 
     

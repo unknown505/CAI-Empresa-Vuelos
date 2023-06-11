@@ -23,12 +23,14 @@ namespace CAI_Empresa_Vuelos.Entidades
 
             return cliente;
         }
-        //public static Vuelo TraerVueloPorOrigen(string origenIngresado, string destinoIngresado)
-        //{
-        //    List<Vuelo> vuelos = TraerVuelo();
-        //    Vuelo vuelo = vuelos.Where(v => v.origen == origenIngresado && v.destino == destinoIngresado).ToList();
-        //    return vuelo;
-        //}
+
+        public static Vuelo TraerVueloPorOrigen(string origenIngresado, string destinoIngresado, DateTime fechaVuelo)
+        {
+            List<Vuelo> vuelos = TraerVuelo();
+            Vuelo vuelo = vuelos.Find(v => v.origen == origenIngresado && v.destino == destinoIngresado && v.fechaSalida.Date == fechaVuelo.Date);
+            return vuelo;
+        }
+
         public static List<Vuelo> TraerVuelo()
         {
             string vuelo = $"{AppDomain.CurrentDomain.BaseDirectory}/../../../Datos/Vuelo.json";

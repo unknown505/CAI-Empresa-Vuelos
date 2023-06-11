@@ -1,35 +1,35 @@
 [
   {
-    "IdVuelo": "123456789123456",
+    "idVuelo": "123456789123456",
     "origen": "Argentina",
     "destino": "Miami",
-    "fecha_Salida": "12/03/23 22:30:00",
-    "fecha_Arribo": "13/03/23 5:30:00",
-    "tiempo_Vuelo": "08:30:00",
+    "fechaSalida": "2012-09-23T23:00:00",
+    "fechaArribo": "2012-03-13T20:00:00",
+    "tiempoVuelo": "08:30:00",
     "aerolinea": "VolaConmigo",
     "tarifas": [
       {
         "clase": "Economi",
         "pasajero": "Adulto",
-        "precio": "20000",
-        "disponibilidad": "2"
+        "precio": 20000,
+        "disponibilidad": 2
       }
     ]
   },
   {
-    "IdVuelo": "123456789123456",
+    "idVuelo": "123456789123456",
     "origen": "Chile",
     "destino": "Peru",
-    "fecha_Salida": "15/12/23 22:30:00",
-    "fecha_Arribo": "13/03/23 5:30:00",
-    "tiempo_Vuelo": "08:30:00",
+    "fechaSalida": "2012-01-23T21:00:00",
+    "fechaArribo": "2021-09-30T08:00:00",
+    "tiempoVuelo": "08:30:00",
     "aerolinea": "VolaConmigo",
     "tarifas": [
       {
         "clase": "Economi",
         "pasajero": "Adulto",
-        "precio": "20000",
-        "disponibilidad": "2"
+        "precio": 20000,
+        "disponibilidad": 2
       }
     ]
   }
