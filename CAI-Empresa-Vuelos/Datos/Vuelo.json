@@ -1,36 +1,887 @@
 [
   {
-    "idVuelo": "123456789123456",
-    "origen": "Argentina",
+    "idVuelo": "000000000011111",
+    "origen": "Buenos Aires",
     "destino": "Miami",
-    "fechaSalida": "2012-09-23T23:00:00",
-    "fechaArribo": "2012-03-13T20:00:00",
-    "tiempoVuelo": "08:30:00",
-    "aerolinea": "VolaConmigo",
+    "fechaSalida": "12/08/23 20:50:00",
+    "fechaArribo": "13/08/23 4:55:00",
+    "tiempoVuelo": "09:05:00",
+    "aerolinea": "American Airlines",
     "tarifas": [
       {
-        "clase": "Economi",
+        "clase": "Economy",
         "pasajero": "Adulto",
-        "precio": 20000,
+        "precio": 840,
         "disponibilidad": 2
       }
     ]
   },
   {
-    "idVuelo": "123456789123456",
-    "origen": "Chile",
-    "destino": "Peru",
-    "fechaSalida": "2012-01-23T21:00:00",
-    "fechaArribo": "2021-09-30T08:00:00",
-    "tiempoVuelo": "08:30:00",
-    "aerolinea": "VolaConmigo",
+    "idVuelo": "000000000011111",
+    "origen": "Buenos Aires",
+    "destino": "Miami",
+    "fechaSalida": "12/08/23 20:50:00",
+    "fechaArribo": "13/08/23 4:55:00",
+    "tiempoVuelo": "09:05:00",
+    "aerolinea": "American Airlines",
     "tarifas": [
       {
-        "clase": "Economi",
+        "clase": "Premium",
         "pasajero": "Adulto",
-        "precio": 20000,
+        "precio": 1486,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000011111",
+    "origen": "Buenos Aires",
+    "destino": "Miami",
+    "fechaSalida": "12/08/23 20:50:00",
+    "fechaArribo": "13/08/23 4:55:00",
+    "tiempoVuelo": "09:05:00",
+    "aerolinea": "American Airlines",
+    "tarifas": [
+      {
+        "clase": "Business",
+        "pasajero": "Adulto",
+        "precio": 4446,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000011111",
+    "origen": "Buenos Aires",
+    "destino": "Miami",
+    "fechaSalida": "12/08/23 20:50:00",
+    "fechaArribo": "13/08/23 4:55:00",
+    "tiempoVuelo": "09:05:00",
+    "aerolinea": "American Airlines",
+    "tarifas": [
+      {
+        "clase": "Business",
+        "pasajero": "Infante",
+        "precio": 500,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000011122",
+    "origen": "Buenos Aires",
+    "destino": "Madrid",
+    "fechaSalida": "03/09/23 21:35:00",
+    "fechaArribo": "04/09/23 14:30:00",
+    "tiempoVuelo": "11:55:00",
+    "aerolinea": "Iberia",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Adulto",
+        "precio": 1500,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000011122",
+    "origen": "Buenos Aires",
+    "destino": "Madrid",
+    "fechaSalida": "03/09/23 21:35:00",
+    "fechaArribo": "04/09/23 14:30:00",
+    "tiempoVuelo": "11:55:00",
+    "aerolinea": "Iberia",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Menor",
+        "precio": 1200,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000011122",
+    "origen": "Buenos Aires",
+    "destino": "Madrid",
+    "fechaSalida": "03/09/23 21:35:00",
+    "fechaArribo": "04/09/23 14:30:00",
+    "tiempoVuelo": "11:55:00",
+    "aerolinea": "Iberia",
+    "tarifas": [
+      {
+        "clase": "Business",
+        "pasajero": "Adulto",
+        "precio": 2700,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000011122",
+    "origen": "Buenos Aires",
+    "destino": "Madrid",
+    "fechaSalida": "03/09/23 21:35:00",
+    "fechaArribo": "04/09/23 14:30:00",
+    "tiempoVuelo": "11:55:00",
+    "aerolinea": "Iberia",
+    "tarifas": [
+      {
+        "clase": "Business",
+        "pasajero": "Menor",
+        "precio": 2160,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000011133",
+    "origen": "Madrid",
+    "destino": "Buenos Aires",
+    "fechaSalida": "13/09/23 17:10:00",
+    "fechaArribo": "14/09/23 06:25:00",
+    "tiempoVuelo": "18:08:00",
+    "aerolinea": "Lufthansa",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Adulto",
+        "precio": 2375,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000011133",
+    "origen": "Madrid",
+    "destino": "Buenos Aires",
+    "fechaSalida": "13/09/23 17:10:00",
+    "fechaArribo": "14/09/23 06:25:00",
+    "tiempoVuelo": "18:08:00",
+    "aerolinea": "Lufthansa",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Menor",
+        "precio": 1900,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000011133",
+    "origen": "Madrid",
+    "destino": "Buenos Aires",
+    "fechaSalida": "13/09/23 17:10:00",
+    "fechaArribo": "14/09/23 06:25:00",
+    "tiempoVuelo": "18:08:00",
+    "aerolinea": "Lufthansa",
+    "tarifas": [
+      {
+        "clase": "Business",
+        "pasajero": "Adulto",
+        "precio": 2500,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000011133",
+    "origen": "Madrid",
+    "destino": "Buenos Aires",
+    "fechaSalida": "13/09/23 17:10:00",
+    "fechaArribo": "14/09/23 06:25:00",
+    "tiempoVuelo": "18:08:00",
+    "aerolinea": "Lufthansa",
+    "tarifas": [
+      {
+        "clase": "Business",
+        "pasajero": "Menor",
+        "precio": 2000,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000033111",
+    "origen": "Buenos Aires",
+    "destino": "Lima",
+    "fechaSalida": "10/09/23 17:40:00",
+    "fechaArribo": "10/09/23 20:35:00",
+    "tiempoVuelo": "04:35:00",
+    "aerolinea": "Latam",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Adulto",
+        "precio": 418,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000033111",
+    "origen": "Buenos Aires",
+    "destino": "Lima",
+    "fechaSalida": "10/09/23 17:40:00",
+    "fechaArribo": "10/09/23 20:35:00",
+    "tiempoVuelo": "04:35:00",
+    "aerolinea": "Latam",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Menor",
+        "precio": 334,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000033111",
+    "origen": "Buenos Aires",
+    "destino": "Lima",
+    "fechaSalida": "10/09/23 17:40:00",
+    "fechaArribo": "10/09/23 20:35:00",
+    "tiempoVuelo": "04:35:00",
+    "aerolinea": "Latam",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Infante",
+        "precio": 100,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000033111",
+    "origen": "Buenos Aires",
+    "destino": "Lima",
+    "fechaSalida": "10/09/23 17:40:00",
+    "fechaArribo": "10/09/23 20:35:00",
+    "tiempoVuelo": "04:35:00",
+    "aerolinea": "Latam",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Adulto",
+        "precio": 297,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000033222",
+    "origen": "Lima",
+    "destino": "Buenos Aires",
+    "fechaSalida": "17/09/23 09:30:00",
+    "fechaArribo": "17/09/23 16:00:00",
+    "tiempoVuelo": "04:30:00",
+    "aerolinea": "Latam",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Adulto",
+        "precio": 1717,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000033222",
+    "origen": "Lima",
+    "destino": "Buenos Aires",
+    "fechaSalida": "17/09/23 09:30:00",
+    "fechaArribo": "17/09/23 16:00:00",
+    "tiempoVuelo": "04:30:00",
+    "aerolinea": "Latam",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Menor",
+        "precio": 1373,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000033222",
+    "origen": "Lima",
+    "destino": "Buenos Aires",
+    "fechaSalida": "17/09/23 09:30:00",
+    "fechaArribo": "17/09/23 16:00:00",
+    "tiempoVuelo": "04:30:00",
+    "aerolinea": "Latam",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Infante",
+        "precio": 800,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000033222",
+    "origen": "Lima",
+    "destino": "Buenos Aires",
+    "fechaSalida": "17/09/23 09:30:00",
+    "fechaArribo": "17/09/23 16:00:00",
+    "tiempoVuelo": "04:30:00",
+    "aerolinea": "Latam",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Adulto",
+        "precio": 734,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000044111",
+    "origen": "Buenos Aires",
+    "destino": "Asunción",
+    "fechaSalida": "16/10/23 09:45:00",
+    "fechaArribo": "16/10/23 11:45:00",
+    "tiempoVuelo": "02:00:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Adulto",
+        "precio": 130,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000044111",
+    "origen": "Buenos Aires",
+    "destino": "Asunción",
+    "fechaSalida": "16/10/23 09:45:00",
+    "fechaArribo": "16/10/23 11:45:00",
+    "tiempoVuelo": "02:00:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Menor",
+        "precio": 104,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000044111",
+    "origen": "Buenos Aires",
+    "destino": "Asunción",
+    "fechaSalida": "16/10/23 09:45:00",
+    "fechaArribo": "16/10/23 11:45:00",
+    "tiempoVuelo": "02:00:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Adulto",
+        "precio": 261,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000044111",
+    "origen": "Buenos Aires",
+    "destino": "Asunción",
+    "fechaSalida": "16/10/23 09:45:00",
+    "fechaArribo": "16/10/23 11:45:00",
+    "tiempoVuelo": "02:00:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Menor",
+        "precio": 208,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000044222",
+    "origen": "Asunción",
+    "destino": "Buenos Aires",
+    "fechaSalida": "21/09/23 02:35:00",
+    "fechaArribo": "21/09/23 04:30:00",
+    "tiempoVuelo": "01:55:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Adulto",
+        "precio": 138,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000044222",
+    "origen": "Asunción",
+    "destino": "Buenos Aires",
+    "fechaSalida": "21/09/23 02:35:00",
+    "fechaArribo": "21/09/23 04:30:00",
+    "tiempoVuelo": "01:55:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Menor",
+        "precio": 111,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000044222",
+    "origen": "Asunción",
+    "destino": "Buenos Aires",
+    "fechaSalida": "21/09/23 02:35:00",
+    "fechaArribo": "21/09/23 04:30:00",
+    "tiempoVuelo": "01:55:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Adulto",
+        "precio": 260,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000044222",
+    "origen": "Asunción",
+    "destino": "Buenos Aires",
+    "fechaSalida": "21/09/23 02:35:00",
+    "fechaArribo": "21/09/23 04:30:00",
+    "tiempoVuelo": "01:55:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Menor",
+        "precio": 138,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000055555",
+    "origen": "Buenos Aires",
+    "destino": "Bariloche",
+    "fechaSalida": "16/07/23 20:25:00",
+    "fechaArribo": "16/07/23 22:45:00",
+    "tiempoVuelo": "02:20:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Adulto",
+        "precio": 167,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000055555",
+    "origen": "Buenos Aires",
+    "destino": "Bariloche",
+    "fechaSalida": "16/07/23 20:25:00",
+    "fechaArribo": "16/07/23 22:45:00",
+    "tiempoVuelo": "02:20:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Menor",
+        "precio": 133,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000055555",
+    "origen": "Buenos Aires",
+    "destino": "Bariloche",
+    "fechaSalida": "16/07/23 20:25:00",
+    "fechaArribo": "16/07/23 22:45:00",
+    "tiempoVuelo": "02:20:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Adulto",
+        "precio": 143,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000055555",
+    "origen": "Buenos Aires",
+    "destino": "Bariloche",
+    "fechaSalida": "16/07/23 20:25:00",
+    "fechaArribo": "16/07/23 22:45:00",
+    "tiempoVuelo": "02:20:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Adulto",
+        "precio": 114,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000055511",
+    "origen": "Bariloche",
+    "destino": "Buenos Aires",
+    "fechaSalida": "22/07/23 23:55:00",
+    "fechaArribo": "22/07/23 01:40:00",
+    "tiempoVuelo": "02:05:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Adulto",
+        "precio": 122,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000055511",
+    "origen": "Bariloche",
+    "destino": "Buenos Aires",
+    "fechaSalida": "22/07/23 23:55:00",
+    "fechaArribo": "22/07/23 01:40:00",
+    "tiempoVuelo": "02:05:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Menor",
+        "precio": 97,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000055511",
+    "origen": "Bariloche",
+    "destino": "Buenos Aires",
+    "fechaSalida": "22/07/23 23:55:00",
+    "fechaArribo": "22/07/23 01:40:00",
+    "tiempoVuelo": "02:05:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Adulto",
+        "precio": 157,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000055511",
+    "origen": "Bariloche",
+    "destino": "Buenos Aires",
+    "fechaSalida": "22/07/23 23:55:00",
+    "fechaArribo": "22/07/23 01:40:00",
+    "tiempoVuelo": "02:05:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Menor",
+        "precio": 126,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000066666",
+    "origen": "Buenos Aires",
+    "destino": "Mendoza",
+    "fechaSalida": "20/08/23 06:50:00",
+    "fechaArribo": "20/08/23 08:45:00",
+    "tiempoVuelo": "01:55:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Adulto",
+        "precio": 32,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000066666",
+    "origen": "Buenos Aires",
+    "destino": "Mendoza",
+    "fechaSalida": "20/08/23 06:50:00",
+    "fechaArribo": "20/08/23 08:45:00",
+    "tiempoVuelo": "01:55:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Infante",
+        "precio": 14,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000066666",
+    "origen": "Buenos Aires",
+    "destino": "Mendoza",
+    "fechaSalida": "20/08/23 06:50:00",
+    "fechaArribo": "20/08/23 08:45:00",
+    "tiempoVuelo": "01:55:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Adulto",
+        "precio": 88,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000066666",
+    "origen": "Buenos Aires",
+    "destino": "Mendoza",
+    "fechaSalida": "20/08/23 06:50:00",
+    "fechaArribo": "20/08/23 08:45:00",
+    "tiempoVuelo": "01:55:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Infante",
+        "precio": 14,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000066611",
+    "origen": "Mendoza",
+    "destino": "Buenos Aires",
+    "fechaSalida": "27/08/23 10:55:00",
+    "fechaArribo": "27/08/23 12:30:00",
+    "tiempoVuelo": "01:35:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Adulto",
+        "precio": 23,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000066611",
+    "origen": "Mendoza",
+    "destino": "Buenos Aires",
+    "fechaSalida": "27/08/23 10:55:00",
+    "fechaArribo": "27/08/23 12:30:00",
+    "tiempoVuelo": "01:35:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Infante",
+        "precio": 14,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000066611",
+    "origen": "Mendoza",
+    "destino": "Buenos Aires",
+    "fechaSalida": "27/08/23 10:55:00",
+    "fechaArribo": "27/08/23 12:30:00",
+    "tiempoVuelo": "01:35:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Adulto",
+        "precio": 87,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000066611",
+    "origen": "Mendoza",
+    "destino": "Buenos Aires",
+    "fechaSalida": "27/08/23 10:55:00",
+    "fechaArribo": "27/08/23 12:30:00",
+    "tiempoVuelo": "01:35:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Infante",
+        "precio": 20,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000077777",
+    "origen": "Buenos Aires",
+    "destino": "Salta",
+    "fechaSalida": "25/10/23 11:10:00",
+    "fechaArribo": "25/10/23 13:20:00",
+    "tiempoVuelo": "02:10:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Adulto",
+        "precio": 24,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000077777",
+    "origen": "Buenos Aires",
+    "destino": "Salta",
+    "fechaSalida": "25/10/23 11:10:00",
+    "fechaArribo": "25/10/23 13:20:00",
+    "tiempoVuelo": "02:10:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Menor",
+        "precio": 19,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000077711",
+    "origen": "Buenos Aires",
+    "destino": "Salta",
+    "fechaSalida": "25/10/23 06:55:00",
+    "fechaArribo": "25/10/23 09:05:00",
+    "tiempoVuelo": "02:10:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Adulto",
+        "precio": 157,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000077711",
+    "origen": "Buenos Aires",
+    "destino": "Salta",
+    "fechaSalida": "25/10/23 06:55:00",
+    "fechaArribo": "25/10/23 09:05:00",
+    "tiempoVuelo": "02:10:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Menor",
+        "precio": 126,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000088888",
+    "origen": "Salta",
+    "destino": "Buenos Aires",
+    "fechaSalida": "02/11/23 18:55:00",
+    "fechaArribo": "02/11/23 20:55:00",
+    "tiempoVuelo": "02:00:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Adulto",
+        "precio": 100,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000088888",
+    "origen": "Salta",
+    "destino": "Buenos Aires",
+    "fechaSalida": "02/11/23 18:55:00",
+    "fechaArribo": "02/11/23 20:55:00",
+    "tiempoVuelo": "02:00:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Premium",
+        "pasajero": "Menor",
+        "precio": 80,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000088888",
+    "origen": "Salta",
+    "destino": "Buenos Aires",
+    "fechaSalida": "02/11/23 18:55:00",
+    "fechaArribo": "02/11/23 20:55:00",
+    "tiempoVuelo": "02:00:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Adulto",
+        "precio": 24,
+        "disponibilidad": 2
+      }
+    ]
+  },
+  {
+    "idVuelo": "000000000088888",
+    "origen": "Salta",
+    "destino": "Buenos Aires",
+    "fechaSalida": "02/11/23 18:55:00",
+    "fechaArribo": "02/11/23 20:55:00",
+    "tiempoVuelo": "02:00:00",
+    "aerolinea": "Aerolíneas Argentinas",
+    "tarifas": [
+      {
+        "clase": "Economy",
+        "pasajero": "Menor",
+        "precio": 19,
         "disponibilidad": 2
       }
     ]
   }
+
 ]
