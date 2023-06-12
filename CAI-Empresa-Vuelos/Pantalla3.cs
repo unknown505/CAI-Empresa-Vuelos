@@ -78,17 +78,17 @@ namespace CAI_Empresa_Vuelos
 
             if (!valido) { return valido; }
             //Terminar de ver por que no ingresa a la validacion de los datos vuelo
-            if (this.vuelos/*.origen*/ == null)
+            if (this.vuelos.origen == null)
             {
                 labelErrorOrigen.Text = "El Origen no se encuentra registrado.";
                 valido = false;
             }
-            if (!string.Equals(textBoxDestino.Text, this.vuelos/*.destino*/))
+            if (!string.Equals(textBoxDestino.Text, this.vuelos.destino))
             {
                 labelErrorDestino.Text = "El destino es incorrecto.";
                 valido = false;
             }
-            if (!string.Equals(textBoxDestino.Text, this.vuelos/*.fechaSalida*/))
+            if (!string.Equals(textBoxDestino.Text, this.vuelos.fechaSalida))
             {
                 labelErrorFecha.Text = "La fecha es incorrecta.";
                 valido = false;
@@ -172,11 +172,10 @@ namespace CAI_Empresa_Vuelos
             LimpiarTextBoxLista();
             foreach (Vuelo vuelo in vuelos)
             {
-                while (vuelo.origen == textBoxOrigen.Text && vuelo.destino == textBoxDestino.Text && vuelo.fechaSalida.ToString() == dateTimePickerFecha.Text)//si no funciona este metodo, usar el traervuelopororigen
+                if (vuelo.origen == textBoxOrigen.Text && vuelo.destino == textBoxDestino.Text && vuelo.fechaSalida.ToString() == dateTimePickerFecha.Text)//si no funciona este metodo, usar el traervuelopororigen
                 {
                     foreach (TarifaVuelo tarifa in vuelo.tarifas)
                     {
-
                         string itemText = $"Clase: {tarifa.clase},Tipo Pasajero: {tarifa.tipoPasajero}, Precio: {tarifa.precio}, Disponibilidad: {tarifa.disponibilidad}";
                         checkedListBox1.Items.Add(itemText);
                     }
