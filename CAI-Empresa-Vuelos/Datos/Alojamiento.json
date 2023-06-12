@@ -1,28 +1,25 @@
 [
   {
-    "idAlojamientos": "555",
-    "nombreAlojamiento": "Resplandor",
-    "codigoCiudad": "JFK",
-    "direccion": "Brooklyn, NY 11211, Estados Unidos",
-    "calificacion": "3",
-    "alojamientoDispobiles": 
-    [
+    "idAlojamientos": "MAD",
+    "nombreAlojamiento": "Riu Plaza España",
+    "codigoCiudad": "MAD",
+    "direccion": "Calle Gran Vía 84, 28013 Madrid, Centro, España",
+    "calificacion": "4 etsrellas",
+    "alojamientoDispobiles": [
       {
-        "nombreHabitacion": "Habitacion 212",
-        "tarifaHabitacion": 5000,
-        "capacidadHabitacion": 
-        [
+        "nombreHabitacion": "Habitacion Doble de Lujo",
+        "tarifaHabitacion": 307,
+        "capacidadHabitacion": [
           {
             "maximoAdulto": 2,
-            "maximoMenores": 1,
-            "maximoInfantes": 1
+            "maximoMenores": 0,
+            "maximoInfantes": 0
           }
         ],
-        "fechaHabitacion": 
-        [
+        "fechaHabitacion": [
           {
-            "fechaDispHabitacion": "2012-08-23T23:00:00",
-            "cantHabXFecha": 8
+            "fechaDispHabitacion": "2023-08-12T23:00:00",
+            "cantHabXFecha": 3
           }
         ]
       }

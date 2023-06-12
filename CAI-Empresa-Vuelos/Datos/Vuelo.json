@@ -1,10 +1,10 @@
 [
   {
-    "idVuelo": "000000000011111",
+    "idVuelo": "11111",
     "origen": "Buenos Aires",
     "destino": "Miami",
-    "fechaSalida": "12/08/23 20:50:00",
-    "fechaArribo": "13/08/23 4:55:00",
+    "fechaSalida": "2023-08-12 20:50:00",
+    "fechaArribo": "2023-08-13 4:55:00",
     "tiempoVuelo": "09:05:00",
     "aerolinea": "American Airlines",
     "tarifas": [
@@ -17,11 +17,11 @@
     ]
   },
   {
-    "idVuelo": "000000000011111",
+    "idVuelo": "11111",
     "origen": "Buenos Aires",
     "destino": "Miami",
-    "fechaSalida": "12/08/23 20:50:00",
-    "fechaArribo": "13/08/23 4:55:00",
+    "fechaSalida": "2023-08-12 20:50:00",
+    "fechaArribo": "2023-08-13 4:55:00",
     "tiempoVuelo": "09:05:00",
     "aerolinea": "American Airlines",
     "tarifas": [
@@ -34,11 +34,11 @@
     ]
   },
   {
-    "idVuelo": "000000000011111",
+    "idVuelo": "11111",
     "origen": "Buenos Aires",
     "destino": "Miami",
-    "fechaSalida": "12/08/23 20:50:00",
-    "fechaArribo": "13/08/23 4:55:00",
+    "fechaSalida": "2023-08-12 20:50:00",
+    "fechaArribo": "2023-08-13 4:55:00",
     "tiempoVuelo": "09:05:00",
     "aerolinea": "American Airlines",
     "tarifas": [
@@ -51,11 +51,11 @@
     ]
   },
   {
-    "idVuelo": "000000000011111",
+    "idVuelo": "11111",
     "origen": "Buenos Aires",
     "destino": "Miami",
-    "fechaSalida": "12/08/23 20:50:00",
-    "fechaArribo": "13/08/23 4:55:00",
+    "fechaSalida": "2023-08-12 20:50:00",
+    "fechaArribo": "2023-08-13 4:55:00",
     "tiempoVuelo": "09:05:00",
     "aerolinea": "American Airlines",
     "tarifas": [
@@ -68,11 +68,11 @@
     ]
   },
   {
-    "idVuelo": "000000000011122",
+    "idVuelo": "11122",
     "origen": "Buenos Aires",
     "destino": "Madrid",
-    "fechaSalida": "03/09/23 21:35:00",
-    "fechaArribo": "04/09/23 14:30:00",
+    "fechaSalida": "2023-09-03 21:35:00",
+    "fechaArribo": "2023-09-04 14:30:00",
     "tiempoVuelo": "11:55:00",
     "aerolinea": "Iberia",
     "tarifas": [
@@ -85,11 +85,11 @@
     ]
   },
   {
-    "idVuelo": "000000000011122",
+    "idVuelo": "11122",
     "origen": "Buenos Aires",
     "destino": "Madrid",
-    "fechaSalida": "03/09/23 21:35:00",
-    "fechaArribo": "04/09/23 14:30:00",
+    "fechaSalida": "2023-09-03 21:35:00",
+    "fechaArribo": "2023-09-04 14:30:00",
     "tiempoVuelo": "11:55:00",
     "aerolinea": "Iberia",
     "tarifas": [
@@ -102,11 +102,11 @@
     ]
   },
   {
-    "idVuelo": "000000000011122",
+    "idVuelo": "11122",
     "origen": "Buenos Aires",
     "destino": "Madrid",
-    "fechaSalida": "03/09/23 21:35:00",
-    "fechaArribo": "04/09/23 14:30:00",
+    "fechaSalida": "2023-09-03 21:35:00",
+    "fechaArribo": "2023-09-04 14:30:00",
     "tiempoVuelo": "11:55:00",
     "aerolinea": "Iberia",
     "tarifas": [
@@ -119,11 +119,11 @@
     ]
   },
   {
-    "idVuelo": "000000000011122",
+    "idVuelo": "11122",
     "origen": "Buenos Aires",
     "destino": "Madrid",
-    "fechaSalida": "03/09/23 21:35:00",
-    "fechaArribo": "04/09/23 14:30:00",
+    "fechaSalida": "2023-09-03 21:35:00",
+    "fechaArribo": "2023-09-04 14:30:00",
     "tiempoVuelo": "11:55:00",
     "aerolinea": "Iberia",
     "tarifas": [
@@ -136,11 +136,11 @@
     ]
   },
   {
-    "idVuelo": "000000000011133",
+    "idVuelo": "11133",
     "origen": "Madrid",
     "destino": "Buenos Aires",
-    "fechaSalida": "13/09/23 17:10:00",
-    "fechaArribo": "14/09/23 06:25:00",
+    "fechaSalida": "2023-09-13 17:10:00",
+    "fechaArribo": "2023-09-14 06:25:00",
     "tiempoVuelo": "18:08:00",
     "aerolinea": "Lufthansa",
     "tarifas": [
@@ -153,11 +153,11 @@
     ]
   },
   {
-    "idVuelo": "000000000011133",
+    "idVuelo": "11133",
     "origen": "Madrid",
     "destino": "Buenos Aires",
-    "fechaSalida": "13/09/23 17:10:00",
-    "fechaArribo": "14/09/23 06:25:00",
+    "fechaSalida": "2023-09-13 17:10:00",
+    "fechaArribo": "2023-09-14 06:25:00",
     "tiempoVuelo": "18:08:00",
     "aerolinea": "Lufthansa",
     "tarifas": [
@@ -170,11 +170,11 @@
     ]
   },
   {
-    "idVuelo": "000000000011133",
+    "idVuelo": "11133",
     "origen": "Madrid",
     "destino": "Buenos Aires",
-    "fechaSalida": "13/09/23 17:10:00",
-    "fechaArribo": "14/09/23 06:25:00",
+    "fechaSalida": "2023-09-13 17:10:00",
+    "fechaArribo": "2023-09-14 06:25:00",
     "tiempoVuelo": "18:08:00",
     "aerolinea": "Lufthansa",
     "tarifas": [
@@ -187,11 +187,11 @@
     ]
   },
   {
-    "idVuelo": "000000000011133",
+    "idVuelo": "11133",
     "origen": "Madrid",
     "destino": "Buenos Aires",
-    "fechaSalida": "13/09/23 17:10:00",
-    "fechaArribo": "14/09/23 06:25:00",
+    "fechaSalida": "2023-09-13 17:10:00",
+    "fechaArribo": "2023-09-14 06:25:00",
     "tiempoVuelo": "18:08:00",
     "aerolinea": "Lufthansa",
     "tarifas": [
@@ -204,11 +204,11 @@
     ]
   },
   {
-    "idVuelo": "000000000033111",
+    "idVuelo": "33111",
     "origen": "Buenos Aires",
     "destino": "Lima",
-    "fechaSalida": "10/09/23 17:40:00",
-    "fechaArribo": "10/09/23 20:35:00",
+    "fechaSalida": "2023-09-10 17:40:00",
+    "fechaArribo": "2023-09-10 20:35:00",
     "tiempoVuelo": "04:35:00",
     "aerolinea": "Latam",
     "tarifas": [
@@ -221,11 +221,11 @@
     ]
   },
   {
-    "idVuelo": "000000000033111",
+    "idVuelo": "33111",
     "origen": "Buenos Aires",
     "destino": "Lima",
-    "fechaSalida": "10/09/23 17:40:00",
-    "fechaArribo": "10/09/23 20:35:00",
+    "fechaSalida": "2023-09-10 17:40:00",
+    "fechaArribo": "2023-09-10 20:35:00",
     "tiempoVuelo": "04:35:00",
     "aerolinea": "Latam",
     "tarifas": [
@@ -238,11 +238,11 @@
     ]
   },
   {
-    "idVuelo": "000000000033111",
+    "idVuelo": "33111",
     "origen": "Buenos Aires",
     "destino": "Lima",
-    "fechaSalida": "10/09/23 17:40:00",
-    "fechaArribo": "10/09/23 20:35:00",
+    "fechaSalida": "2023-09-10 17:40:00",
+    "fechaArribo": "2023-09-10 20:35:00",
     "tiempoVuelo": "04:35:00",
     "aerolinea": "Latam",
     "tarifas": [
@@ -255,11 +255,11 @@
     ]
   },
   {
-    "idVuelo": "000000000033111",
+    "idVuelo": "33111",
     "origen": "Buenos Aires",
     "destino": "Lima",
-    "fechaSalida": "10/09/23 17:40:00",
-    "fechaArribo": "10/09/23 20:35:00",
+    "fechaSalida": "2023-09-10 17:40:00",
+    "fechaArribo": "2023-09-10 20:35:00",
     "tiempoVuelo": "04:35:00",
     "aerolinea": "Latam",
     "tarifas": [
@@ -272,11 +272,11 @@
     ]
   },
   {
-    "idVuelo": "000000000033222",
+    "idVuelo": "33222",
     "origen": "Lima",
     "destino": "Buenos Aires",
-    "fechaSalida": "17/09/23 09:30:00",
-    "fechaArribo": "17/09/23 16:00:00",
+    "fechaSalida": "2023-09-17 09:30:00",
+    "fechaArribo": "2023-09-17 16:00:00",
     "tiempoVuelo": "04:30:00",
     "aerolinea": "Latam",
     "tarifas": [
@@ -289,11 +289,11 @@
     ]
   },
   {
-    "idVuelo": "000000000033222",
+    "idVuelo": "33222",
     "origen": "Lima",
     "destino": "Buenos Aires",
-    "fechaSalida": "17/09/23 09:30:00",
-    "fechaArribo": "17/09/23 16:00:00",
+    "fechaSalida": "2023-09-17 09:30:00",
+    "fechaArribo": "2023-09-17 16:00:00",
     "tiempoVuelo": "04:30:00",
     "aerolinea": "Latam",
     "tarifas": [
@@ -306,11 +306,11 @@
     ]
   },
   {
-    "idVuelo": "000000000033222",
+    "idVuelo": "33222",
     "origen": "Lima",
     "destino": "Buenos Aires",
-    "fechaSalida": "17/09/23 09:30:00",
-    "fechaArribo": "17/09/23 16:00:00",
+    "fechaSalida": "2023-09-17 09:30:00",
+    "fechaArribo": "2023-09-17 16:00:00",
     "tiempoVuelo": "04:30:00",
     "aerolinea": "Latam",
     "tarifas": [
@@ -323,11 +323,11 @@
     ]
   },
   {
-    "idVuelo": "000000000033222",
+    "idVuelo": "33222",
     "origen": "Lima",
     "destino": "Buenos Aires",
-    "fechaSalida": "17/09/23 09:30:00",
-    "fechaArribo": "17/09/23 16:00:00",
+    "fechaSalida": "2023-09-17 09:30:00",
+    "fechaArribo": "2023-09-17 16:00:00",
     "tiempoVuelo": "04:30:00",
     "aerolinea": "Latam",
     "tarifas": [
@@ -340,13 +340,13 @@
     ]
   },
   {
-    "idVuelo": "000000000044111",
+    "idVuelo": "44111",
     "origen": "Buenos Aires",
-    "destino": "Asunción",
-    "fechaSalida": "16/10/23 09:45:00",
-    "fechaArribo": "16/10/23 11:45:00",
+    "destino": "Asuncion",
+    "fechaSalida": "2023-10-16 09:45:00",
+    "fechaArribo": "2023-10-16 11:45:00",
     "tiempoVuelo": "02:00:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Economy",
@@ -357,13 +357,13 @@
     ]
   },
   {
-    "idVuelo": "000000000044111",
+    "idVuelo": "44111",
     "origen": "Buenos Aires",
-    "destino": "Asunción",
-    "fechaSalida": "16/10/23 09:45:00",
-    "fechaArribo": "16/10/23 11:45:00",
+    "destino": "Asuncion",
+    "fechaSalida": "2023-10-16 09:45:00",
+    "fechaArribo": "2023-10-16 11:45:00",
     "tiempoVuelo": "02:00:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Economy",
@@ -374,13 +374,13 @@
     ]
   },
   {
-    "idVuelo": "000000000044111",
+    "idVuelo": "44111",
     "origen": "Buenos Aires",
-    "destino": "Asunción",
-    "fechaSalida": "16/10/23 09:45:00",
-    "fechaArribo": "16/10/23 11:45:00",
+    "destino": "Asuncion",
+    "fechaSalida": "2023-10-16 09:45:00",
+    "fechaArribo": "2023-10-16 11:45:00",
     "tiempoVuelo": "02:00:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Premium",
@@ -391,13 +391,13 @@
     ]
   },
   {
-    "idVuelo": "000000000044111",
+    "idVuelo": "44111",
     "origen": "Buenos Aires",
-    "destino": "Asunción",
-    "fechaSalida": "16/10/23 09:45:00",
-    "fechaArribo": "16/10/23 11:45:00",
+    "destino": "Asuncion",
+    "fechaSalida": "2023-10-16 09:45:00",
+    "fechaArribo": "2023-10-16 11:45:00",
     "tiempoVuelo": "02:00:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Premium",
@@ -408,13 +408,13 @@
     ]
   },
   {
-    "idVuelo": "000000000044222",
-    "origen": "Asunción",
+    "idVuelo": "44222",
+    "origen": "Asuncion",
     "destino": "Buenos Aires",
-    "fechaSalida": "21/09/23 02:35:00",
-    "fechaArribo": "21/09/23 04:30:00",
+    "fechaSalida": "2023-10-21 02:35:00",
+    "fechaArribo": "2023-10-21 04:30:00",
     "tiempoVuelo": "01:55:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Economy",
@@ -425,13 +425,13 @@
     ]
   },
   {
-    "idVuelo": "000000000044222",
-    "origen": "Asunción",
+    "idVuelo": "44222",
+    "origen": "Asuncion",
     "destino": "Buenos Aires",
-    "fechaSalida": "21/09/23 02:35:00",
-    "fechaArribo": "21/09/23 04:30:00",
+    "fechaSalida": "2023-10-21 02:35:00",
+    "fechaArribo": "2023-10-21 04:30:00",
     "tiempoVuelo": "01:55:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Economy",
@@ -442,13 +442,13 @@
     ]
   },
   {
-    "idVuelo": "000000000044222",
-    "origen": "Asunción",
+    "idVuelo": "44222",
+    "origen": "Asuncion",
     "destino": "Buenos Aires",
-    "fechaSalida": "21/09/23 02:35:00",
-    "fechaArribo": "21/09/23 04:30:00",
+    "fechaSalida": "2023-10-21 02:35:00",
+    "fechaArribo": "2023-10-21 04:30:00",
     "tiempoVuelo": "01:55:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Premium",
@@ -459,13 +459,13 @@
     ]
   },
   {
-    "idVuelo": "000000000044222",
-    "origen": "Asunción",
+    "idVuelo": "44222",
+    "origen": "Asuncion",
     "destino": "Buenos Aires",
-    "fechaSalida": "21/09/23 02:35:00",
-    "fechaArribo": "21/09/23 04:30:00",
+    "fechaSalida": "2023-10-21 02:35:00",
+    "fechaArribo": "2023-10-21 04:30:00",
     "tiempoVuelo": "01:55:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Premium",
@@ -476,13 +476,13 @@
     ]
   },
   {
-    "idVuelo": "000000000055555",
+    "idVuelo": "55555",
     "origen": "Buenos Aires",
     "destino": "Bariloche",
-    "fechaSalida": "16/07/23 20:25:00",
-    "fechaArribo": "16/07/23 22:45:00",
+    "fechaSalida": "2023-07-16 20:25:00",
+    "fechaArribo": "2023-07-16 22:45:00",
     "tiempoVuelo": "02:20:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Premium",
@@ -493,13 +493,13 @@
     ]
   },
   {
-    "idVuelo": "000000000055555",
+    "idVuelo": "55555",
     "origen": "Buenos Aires",
     "destino": "Bariloche",
-    "fechaSalida": "16/07/23 20:25:00",
-    "fechaArribo": "16/07/23 22:45:00",
+    "fechaSalida": "2023-07-16 20:25:00",
+    "fechaArribo": "2023-07-16 22:45:00",
     "tiempoVuelo": "02:20:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Premium",
@@ -510,13 +510,13 @@
     ]
   },
   {
-    "idVuelo": "000000000055555",
+    "idVuelo": "55555",
     "origen": "Buenos Aires",
     "destino": "Bariloche",
-    "fechaSalida": "16/07/23 20:25:00",
-    "fechaArribo": "16/07/23 22:45:00",
+    "fechaSalida": "2023-07-16 20:25:00",
+    "fechaArribo": "2023-07-16 22:45:00",
     "tiempoVuelo": "02:20:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Economy",
@@ -527,13 +527,13 @@
     ]
   },
   {
-    "idVuelo": "000000000055555",
+    "idVuelo": "55555",
     "origen": "Buenos Aires",
     "destino": "Bariloche",
-    "fechaSalida": "16/07/23 20:25:00",
-    "fechaArribo": "16/07/23 22:45:00",
+    "fechaSalida": "2023-07-16 20:25:00",
+    "fechaArribo": "2023-07-16 22:45:00",
     "tiempoVuelo": "02:20:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Economy",
@@ -544,13 +544,13 @@
     ]
   },
   {
-    "idVuelo": "000000000055511",
+    "idVuelo": "55511",
     "origen": "Bariloche",
     "destino": "Buenos Aires",
-    "fechaSalida": "22/07/23 23:55:00",
-    "fechaArribo": "22/07/23 01:40:00",
+    "fechaSalida": "2023-07-22 23:55:00",
+    "fechaArribo": "2023-07-22 01:40:00",
     "tiempoVuelo": "02:05:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Economy",
@@ -561,13 +561,13 @@
     ]
   },
   {
-    "idVuelo": "000000000055511",
+    "idVuelo": "55511",
     "origen": "Bariloche",
     "destino": "Buenos Aires",
-    "fechaSalida": "22/07/23 23:55:00",
-    "fechaArribo": "22/07/23 01:40:00",
+    "fechaSalida": "2023-07-22 23:55:00",
+    "fechaArribo": "2023-07-22 01:40:00",
     "tiempoVuelo": "02:05:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Economy",
@@ -578,13 +578,13 @@
     ]
   },
   {
-    "idVuelo": "000000000055511",
+    "idVuelo": "55511",
     "origen": "Bariloche",
     "destino": "Buenos Aires",
-    "fechaSalida": "22/07/23 23:55:00",
-    "fechaArribo": "22/07/23 01:40:00",
+    "fechaSalida": "2023-07-22 23:55:00",
+    "fechaArribo": "2023-07-22 01:40:00",
     "tiempoVuelo": "02:05:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Premium",
@@ -595,13 +595,13 @@
     ]
   },
   {
-    "idVuelo": "000000000055511",
+    "idVuelo": "55511",
     "origen": "Bariloche",
     "destino": "Buenos Aires",
-    "fechaSalida": "22/07/23 23:55:00",
-    "fechaArribo": "22/07/23 01:40:00",
+    "fechaSalida": "2023-07-22 23:55:00",
+    "fechaArribo": "2023-07-22 01:40:00",
     "tiempoVuelo": "02:05:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Premium",
@@ -612,13 +612,13 @@
     ]
   },
   {
-    "idVuelo": "000000000066666",
+    "idVuelo": "66666",
     "origen": "Buenos Aires",
     "destino": "Mendoza",
-    "fechaSalida": "20/08/23 06:50:00",
-    "fechaArribo": "20/08/23 08:45:00",
+    "fechaSalida": "2023-08-20 06:50:00",
+    "fechaArribo": "2023-08-20 08:45:00",
     "tiempoVuelo": "01:55:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Economy",
@@ -629,13 +629,13 @@
     ]
   },
   {
-    "idVuelo": "000000000066666",
+    "idVuelo": "66666",
     "origen": "Buenos Aires",
     "destino": "Mendoza",
-    "fechaSalida": "20/08/23 06:50:00",
-    "fechaArribo": "20/08/23 08:45:00",
+    "fechaSalida": "2023-08-20 06:50:00",
+    "fechaArribo": "2023-08-20 08:45:00",
     "tiempoVuelo": "01:55:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Economy",
@@ -646,13 +646,13 @@
     ]
   },
   {
-    "idVuelo": "000000000066666",
+    "idVuelo": "66666",
     "origen": "Buenos Aires",
     "destino": "Mendoza",
-    "fechaSalida": "20/08/23 06:50:00",
-    "fechaArribo": "20/08/23 08:45:00",
+    "fechaSalida": "2023-08-20 06:50:00",
+    "fechaArribo": "2023-08-20 08:45:00",
     "tiempoVuelo": "01:55:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Premium",
@@ -663,13 +663,13 @@
     ]
   },
   {
-    "idVuelo": "000000000066666",
+    "idVuelo": "66666",
     "origen": "Buenos Aires",
     "destino": "Mendoza",
-    "fechaSalida": "20/08/23 06:50:00",
-    "fechaArribo": "20/08/23 08:45:00",
+    "fechaSalida": "2023-08-20 06:50:00",
+    "fechaArribo": "2023-08-20 08:45:00",
     "tiempoVuelo": "01:55:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Premium",
@@ -680,13 +680,13 @@
     ]
   },
   {
-    "idVuelo": "000000000066611",
+    "idVuelo": "66611",
     "origen": "Mendoza",
     "destino": "Buenos Aires",
-    "fechaSalida": "27/08/23 10:55:00",
-    "fechaArribo": "27/08/23 12:30:00",
+    "fechaSalida": "2023-08-27 10:55:00",
+    "fechaArribo": "2023-08-27 12:30:00",
     "tiempoVuelo": "01:35:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Economy",
@@ -697,13 +697,13 @@
     ]
   },
   {
-    "idVuelo": "000000000066611",
+    "idVuelo": "66611",
     "origen": "Mendoza",
     "destino": "Buenos Aires",
-    "fechaSalida": "27/08/23 10:55:00",
-    "fechaArribo": "27/08/23 12:30:00",
+    "fechaSalida": "2023-08-27 10:55:00",
+    "fechaArribo": "2023-08-27 12:30:00",
     "tiempoVuelo": "01:35:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Economy",
@@ -714,13 +714,13 @@
     ]
   },
   {
-    "idVuelo": "000000000066611",
+    "idVuelo": "66611",
     "origen": "Mendoza",
     "destino": "Buenos Aires",
-    "fechaSalida": "27/08/23 10:55:00",
-    "fechaArribo": "27/08/23 12:30:00",
+    "fechaSalida": "2023-08-27 10:55:00",
+    "fechaArribo": "2023-08-27 12:30:00",
     "tiempoVuelo": "01:35:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Premium",
@@ -731,13 +731,13 @@
     ]
   },
   {
-    "idVuelo": "000000000066611",
+    "idVuelo": "66611",
     "origen": "Mendoza",
     "destino": "Buenos Aires",
-    "fechaSalida": "27/08/23 10:55:00",
-    "fechaArribo": "27/08/23 12:30:00",
+    "fechaSalida": "2023-08-27 10:55:00",
+    "fechaArribo": "2023-08-27 12:30:00",
     "tiempoVuelo": "01:35:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Premium",
@@ -748,13 +748,13 @@
     ]
   },
   {
-    "idVuelo": "000000000077777",
+    "idVuelo": "77777",
     "origen": "Buenos Aires",
     "destino": "Salta",
-    "fechaSalida": "25/10/23 11:10:00",
-    "fechaArribo": "25/10/23 13:20:00",
+    "fechaSalida": "2023-10-25 11:10:00",
+    "fechaArribo": "2023-10-25 13:20:00",
     "tiempoVuelo": "02:10:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Economy",
@@ -765,13 +765,13 @@
     ]
   },
   {
-    "idVuelo": "000000000077777",
+    "idVuelo": "77777",
     "origen": "Buenos Aires",
     "destino": "Salta",
-    "fechaSalida": "25/10/23 11:10:00",
-    "fechaArribo": "25/10/23 13:20:00",
+    "fechaSalida": "2023-10-25 11:10:00",
+    "fechaArribo": "2023-10-25 13:20:00",
     "tiempoVuelo": "02:10:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Economy",
@@ -782,13 +782,13 @@
     ]
   },
   {
-    "idVuelo": "000000000077711",
+    "idVuelo": "77711",
     "origen": "Buenos Aires",
     "destino": "Salta",
-    "fechaSalida": "25/10/23 06:55:00",
-    "fechaArribo": "25/10/23 09:05:00",
+    "fechaSalida": "2023-10-25 06:55:00",
+    "fechaArribo": "2023-10-25 09:05:00",
     "tiempoVuelo": "02:10:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Premium",
@@ -799,13 +799,13 @@
     ]
   },
   {
-    "idVuelo": "000000000077711",
+    "idVuelo": "77711",
     "origen": "Buenos Aires",
     "destino": "Salta",
-    "fechaSalida": "25/10/23 06:55:00",
-    "fechaArribo": "25/10/23 09:05:00",
+    "fechaSalida": "2023-10-25 06:55:00",
+    "fechaArribo": "2023-10-25 09:05:00",
     "tiempoVuelo": "02:10:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Premium",
@@ -816,13 +816,13 @@
     ]
   },
   {
-    "idVuelo": "000000000088888",
+    "idVuelo": "88888",
     "origen": "Salta",
     "destino": "Buenos Aires",
-    "fechaSalida": "02/11/23 18:55:00",
-    "fechaArribo": "02/11/23 20:55:00",
+    "fechaSalida": "2023-11-02 18:55:00",
+    "fechaArribo": "2023-11-02 20:55:00",
     "tiempoVuelo": "02:00:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Premium",
@@ -833,13 +833,13 @@
     ]
   },
   {
-    "idVuelo": "000000000088888",
+    "idVuelo": "88888",
     "origen": "Salta",
     "destino": "Buenos Aires",
-    "fechaSalida": "02/11/23 18:55:00",
-    "fechaArribo": "02/11/23 20:55:00",
+    "fechaSalida": "2023-11-02 18:55:00",
+    "fechaArribo": "2023-11-02 20:55:00",
     "tiempoVuelo": "02:00:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Premium",
@@ -850,13 +850,13 @@
     ]
   },
   {
-    "idVuelo": "000000000088888",
+    "idVuelo": "88888",
     "origen": "Salta",
     "destino": "Buenos Aires",
-    "fechaSalida": "02/11/23 18:55:00",
-    "fechaArribo": "02/11/23 20:55:00",
+    "fechaSalida": "2023-11-02 18:55:00",
+    "fechaArribo": "2023-11-02 20:55:00",
     "tiempoVuelo": "02:00:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Economy",
@@ -867,13 +867,13 @@
     ]
   },
   {
-    "idVuelo": "000000000088888",
+    "idVuelo": "088888",
     "origen": "Salta",
     "destino": "Buenos Aires",
-    "fechaSalida": "02/11/23 18:55:00",
-    "fechaArribo": "02/11/23 20:55:00",
+    "fechaSalida": "2023-11-02 18:55:00",
+    "fechaArribo": "2023-11-02 20:55:00",
     "tiempoVuelo": "02:00:00",
-    "aerolinea": "Aerolíneas Argentinas",
+    "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
       {
         "clase": "Economy",

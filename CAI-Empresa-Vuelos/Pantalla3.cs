@@ -4,11 +4,13 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CAI_Empresa_Vuelos.Entidades;
+using Newtonsoft.Json;
 using static CAI_Empresa_Vuelos.Entidades.Vuelo;
 
 
@@ -19,13 +21,14 @@ namespace CAI_Empresa_Vuelos
         private List<Vuelo> vuelos { get; set; }
         private List<Alojamiento> alojamientos { get; set; }
         //private List<DateTime> fechasFiltradas;
-
-
+        
         public Pantalla3()
         {
+            string[] fileLines = File.ReadAllLines("C:\\Users\\mdarosa\\source\\repos\\CAI-Empresa-Vuelos\\CAI-Empresa-Vuelos\\Datos\\Vuelo.json");
+            string json = string.Join("", fileLines);
+            this.vuelos = JsonConvert.DeserializeObject<List<Vuelo>>(json);
 
             InitializeComponent();
-
         }
 
         private void Vuelo_CheckedChanged(object sender, EventArgs e)
@@ -78,23 +81,23 @@ namespace CAI_Empresa_Vuelos
 
             if (!valido) { return valido; }
             //Terminar de ver por que no ingresa a la validacion de los datos vuelo
-            if (this.vuelos.origen == null)
+            if (string.IsNullOrEmpty(textBoxDestino.Text))
             {
                 labelErrorOrigen.Text = "El Origen no se encuentra registrado.";
                 valido = false;
             }
-            if (!string.Equals(textBoxDestino.Text, this.vuelos.destino))
+            //if (!string.Equals(textBoxDestino.Text, this.vuelos.destino))
+            if (!vuelos.Any(x => x.destino == textBoxDestino.Text))
             {
                 labelErrorDestino.Text = "El destino es incorrecto.";
                 valido = false;
             }
-            if (!string.Equals(textBoxDestino.Text, this.vuelos.fechaSalida))
-            {
+            //if (!string.Equals(textBoxDestino.Text, this.vuelos.fechaSalida))
+            if (!vuelos.Any(x => x.fechaSalida.Date == dateTimePickerFecha.Value.Date))
+            { 
                 labelErrorFecha.Text = "La fecha es incorrecta.";
                 valido = false;
             }
-
-
 
             return valido;
         }
