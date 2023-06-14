@@ -24,7 +24,7 @@ namespace CAI_Empresa_Vuelos
         
         public Pantalla3()
         {
-            string[] fileLines = File.ReadAllLines("C:\\Users\\mdarosa\\source\\repos\\CAI-Empresa-Vuelos\\CAI-Empresa-Vuelos\\Datos\\Vuelo.json");
+            string[] fileLines = File.ReadAllLines("..\\..\\..\\Datos\\Vuelo.json");
             string json = string.Join("", fileLines);
             this.vuelos = JsonConvert.DeserializeObject<List<Vuelo>>(json);
 
@@ -212,6 +212,10 @@ namespace CAI_Empresa_Vuelos
         private void Alojamientos_CheckedChanged(object sender, EventArgs e)
         {
             this.alojamientos = BBDD.TraerAlojamiento();
+            foreach (var item in this.alojamientos) 
+            {
+                this.checkedListBox1.Items.Add(item.nombreAlojamiento);
+            }
 
             if (Alojamientos.Checked && Vuelo.Checked == false)
             {
@@ -225,10 +229,12 @@ namespace CAI_Empresa_Vuelos
                 textBoxDestino.Visible = true; // CapacidadMax
                 dateTimePickerFecha.Visible = true;
                 buttonAlojamiento.Visible = true;
+                checkedListBox1.Visible = true;
             }
             string CiudadSeleccion = textBoxOrigen.Text;
             string CapacidadSeleccion = textBoxDestino.Text;
             DateTime FechaSeleccion = dateTimePickerFecha.Value;
+
 
             Vuelo vuelo = BBDD.TraerVueloPorOrigen(CiudadSeleccion, CapacidadSeleccion, FechaSeleccion);
 
@@ -237,6 +243,20 @@ namespace CAI_Empresa_Vuelos
 
         private void buttonAlojamiento_Click(object sender, EventArgs e)
         {
+            int capacidad = 0;
+            if(textBoxDestino.Text != "")
+            {
+                capacidad = Convert.ToInt32(textBoxDestino.Text);
+            }
+
+            this.alojamientos = BBDD.TraerAlojamientoFiltrado(textBoxOrigen.Text, capacidad, dateTimePickerFecha.Value);
+            this.checkedListBox1.Items.Clear();
+            foreach (var item in this.alojamientos)
+            {
+                this.checkedListBox1.Items.Add(item.nombreAlojamiento);
+            }
+
+            
 
         }
     }

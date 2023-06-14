@@ -4,7 +4,7 @@
     "nombreAlojamiento": "Riu Plaza España",
     "codigoCiudad": "MAD",
     "direccion": "Calle Gran Vía 84, 28013 Madrid, Centro, España",
-    "calificacion": "4 etsrellas",
+    "calificacion": "4 estrellas",
     "alojamientoDispobiles": [
       {
         "nombreHabitacion": "Habitacion Doble de Lujo",
@@ -18,7 +18,59 @@
         ],
         "fechaHabitacion": [
           {
-            "fechaDispHabitacion": "2023-08-12T23:00:00",
+            "fechaDispHabitacion": "2023-08-12T00:00:00",
+            "cantHabXFecha": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "BAR",
+    "nombreAlojamiento": "Gran Hotel",
+    "codigoCiudad": "BAR",
+    "direccion": "Calle Asamblea 44, 24513 Barcelona, Centro, España",
+    "calificacion": "5 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Simple de Lujo",
+        "tarifaHabitacion": 500,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 1,
+            "maximoMenores": 0,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-09-14T00:00:00",
+            "cantHabXFecha": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "AND",
+    "nombreAlojamiento": "Hotel Granja",
+    "codigoCiudad": "AND",
+    "direccion": "Calle Stopler 23, 24053 Andalucia, Centro, España",
+    "calificacion": "4 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Triple",
+        "tarifaHabitacion": 240,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 1,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-11-29T00:00:00",
             "cantHabXFecha": 3
           }
         ]

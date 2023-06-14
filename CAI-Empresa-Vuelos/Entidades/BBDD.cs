@@ -45,6 +45,20 @@ namespace CAI_Empresa_Vuelos.Entidades
             return TraerEntidades<Alojamiento>(alojamiento);
         }
 
+        public static List<Alojamiento> TraerAlojamientoFiltrado(string ciudad, int capacidad, DateTime fecha)
+        {
+            List<Alojamiento> alojamientos = TraerAlojamiento();
+
+            alojamientos = alojamientos
+            .Where(a => a.codigoCiudad == ciudad &&
+            a.alojamientoDispobiles.Any(ad => ad.capacidadHabitacion.Any(ch => (ch.maximoInfantes + ch.maximoAdulto + ch.maximoMenores) >= capacidad)) &&
+            a.alojamientoDispobiles.Any(ad => ad.fechaHabitacion.Any(fh => fh.fechaDispHabitacion == fecha.Date)))
+            .ToList();
+
+            return alojamientos;
+
+        }
+
         private static List<T> TraerEntidades<T>(string rutaArchivo)
         {
             StreamReader r = new StreamReader(rutaArchivo);

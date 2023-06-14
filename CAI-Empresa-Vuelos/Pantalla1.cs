@@ -59,39 +59,16 @@ namespace CAI_Empresa_Vuelos
 
         private bool ValidarInicioSesion()
         {
-            bool valido = true;
-
-            //Validar datos vacios o null en usuairo
-            if (string.IsNullOrEmpty(UsuarioIngreso.Text))
+            usuarioErrorLbl.Text = UsuarioValidaciones.ValidarInicioSesionUsuario(UsuarioIngreso.Text, this.user);
+            contraseñaErrorLbl.Text = UsuarioValidaciones.ValidarInicioSesionUsuario(UsuarioIngreso.Text, this.user);
+            if(usuarioErrorLbl.Text == "" && contraseñaErrorLbl.Text == "")
             {
-                usuarioErrorLbl.Text = "El usuario no puede estar vacío.";
-                valido = false;
+                return true;
             }
-            //Validar datos vacios o null en contraseña
-            if (string.IsNullOrEmpty(ContraseñaIngreso.Text))
-            {
-                contraseñaErrorLbl.Text = "La contraseña no puede estar vacía.";
-                valido = false;
-            }
-
-            if (!valido) { return valido; }
-            //Validar Que el usuario estre en la lista
-            if (this.user == null)
-            {
-                usuarioErrorLbl.Text = "El usuario no se encuentra registrado.";
-                valido = false;
-            }
-            //Validar que el usuario registrado corresponda con la contraseña asignada
             else
             {
-                if (!string.Equals(ContraseñaIngreso.Text, this.user.contrasena, StringComparison.Ordinal))
-                {
-                    contraseñaErrorLbl.Text = "La contraseña es incorrecta.";
-                    valido = false;
-                }
+                return false;
             }
-
-            return valido;
         }
 
         //Borrar los datos del msj de error en ambos casos

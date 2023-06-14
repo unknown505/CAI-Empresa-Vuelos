@@ -164,7 +164,6 @@ namespace CAI_Empresa_Vuelos
             this.buttonVolver.TabIndex = 16;
             this.buttonVolver.Text = "Volver";
             this.buttonVolver.UseVisualStyleBackColor = true;
-            this.buttonVolver.Visible = false;
             this.buttonVolver.Click += new System.EventHandler(this.buttonVolver_Click);
             // 
             // textBoxOrigen
@@ -224,7 +223,6 @@ namespace CAI_Empresa_Vuelos
             this.button1.TabIndex = 30;
             this.button1.Text = "Buscar";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Visible = false;
             // 
             // textBox1
             // 

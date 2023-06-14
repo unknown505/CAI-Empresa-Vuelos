@@ -9,11 +9,11 @@ namespace CAI_Empresa_Vuelos.Entidades
     public class Alojamiento
     {
 
-        public int idAlojamientos { get; set; }
+        public string idAlojamientos { get; set; }
         public string nombreAlojamiento { get; set; }
         public string codigoCiudad { get; set; }
         public string direccion { get; set; }
-        public char calificacion { get; set; }
+        public string calificacion { get; set; }
         public List<HabitacionDisponibilidad> alojamientoDispobiles { get; set; }
 
         public class HabitacionDisponibilidad
