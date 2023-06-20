@@ -14,11 +14,14 @@ namespace CAI_Empresa_Vuelos
     public partial class Pantalla1 : Form
     {
         //inicio un nuevo usuario para guardar los datos que ingresa para dar comienzo al login
-        private Usuario user { get; set; }
+        private Vendedor user { get; set; }
 
         public Pantalla1()
         {
             InitializeComponent();
+            
+            UsuarioIngreso.Text = "Vendedor";
+            ContraseñaIngreso.Text = "12345";
         }
 
         private void Pantalla1_Load(object sender, EventArgs e)
@@ -33,22 +36,18 @@ namespace CAI_Empresa_Vuelos
         private void buttonIngreso_Click(object sender, EventArgs e)
         {
             LimpiarMensajesError();
-            // Tomamr los datos ingresados 
+
             string usuarioIngreso = UsuarioIngreso.Text;
             string constraseñaIngreso = ContraseñaIngreso.Text;
-            //Traer los datos ingresados en la BBDD
-            this.user = BBDD.TraerClientePorDato(usuarioIngreso);
-            //Comenzar las validaciones
+            this.user = BBDD.TraerVendedorPorDato(usuarioIngreso);
 
-            //Ingreso Valido
+
             if (ValidarInicioSesion())
             {
-                //Oculta esta pantalla y pasa a la pantalla 2
                 this.Hide();
-                Pantalla2 pantalla2 = new Pantalla2();
+                MenuPrincipal pantalla2 = new MenuPrincipal();
                 pantalla2.Show();
             }
-            //Ingresos no validos
             else
             {
                 usuarioErrorLbl.Show();
@@ -59,16 +58,37 @@ namespace CAI_Empresa_Vuelos
 
         private bool ValidarInicioSesion()
         {
-            usuarioErrorLbl.Text = UsuarioValidaciones.ValidarInicioSesionUsuario(UsuarioIngreso.Text, this.user);
-            contraseñaErrorLbl.Text = UsuarioValidaciones.ValidarInicioSesionUsuario(UsuarioIngreso.Text, this.user);
-            if(usuarioErrorLbl.Text == "" && contraseñaErrorLbl.Text == "")
+            bool valido = true;
+
+            if (string.IsNullOrEmpty(UsuarioIngreso.Text))
             {
-                return true;
+                usuarioErrorLbl.Text = "El usuario no puede estar vacio.";
+                valido = false;
+            }
+
+            if (string.IsNullOrEmpty(ContraseñaIngreso.Text))
+            {
+                contraseñaErrorLbl.Text = "La contraseña no puede estar vacia.";
+                valido = false;
+            }
+
+            if (!valido) { return valido; }
+
+            if (this.user == null)
+            {
+                usuarioErrorLbl.Text = "El vendedor no se encuentra registrado.";
+                valido = false;
             }
             else
             {
-                return false;
+                if (!string.Equals(ContraseñaIngreso.Text, this.user.contrasena, StringComparison.Ordinal))
+                {
+                    contraseñaErrorLbl.Text = "La contraseña es incorrecta.";
+                    valido = false;
+                }
             }
+
+            return valido;
         }
 
         //Borrar los datos del msj de error en ambos casos

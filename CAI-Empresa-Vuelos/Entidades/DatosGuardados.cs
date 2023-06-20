@@ -8,6 +8,6 @@ namespace CAI_Empresa_Vuelos.Entidades
 {
     static class DatosGuardados
     {
-        public static List<string> reservas { get; set; }
+        public static List<Reserva> reservas { get; set; }
     }
 }

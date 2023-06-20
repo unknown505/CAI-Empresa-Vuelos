@@ -10,16 +10,16 @@ namespace CAI_Empresa_Vuelos.Entidades
 {
     public class BBDD
     {
-        public static List<Usuario> TraerUsuario()
+        public static List<Vendedor> TraerVendedor()
         {
-            string usuario = $"{AppDomain.CurrentDomain.BaseDirectory}/../../../Datos/Usuario.json";
-            return TraerEntidades<Usuario>(usuario);
+            string usuario = $"{AppDomain.CurrentDomain.BaseDirectory}/../../../Datos/Vendedor.json";
+            return TraerEntidades<Vendedor>(usuario);
         }
 
-        public static Usuario TraerClientePorDato(string usuarioIngreso)
+        public static Vendedor TraerVendedorPorDato(string usuarioIngreso)
         {
-            List<Usuario> user = TraerUsuario();
-            Usuario cliente = user.Find(x => x.usuario == usuarioIngreso);
+            List<Vendedor> user = TraerVendedor();
+            Vendedor cliente = user.Find(x => x.usuario == usuarioIngreso);
 
             return cliente;
         }
@@ -45,14 +45,14 @@ namespace CAI_Empresa_Vuelos.Entidades
             return TraerEntidades<Alojamiento>(alojamiento);
         }
 
-        public static List<Alojamiento> TraerAlojamientoFiltrado(string ciudad, int capacidad, DateTime fecha)
+        public static List<Alojamiento> TraerAlojamientoFiltrado(string ciudad, int adultos, int menores, int infantes, DateTime fecha)
         {
             List<Alojamiento> alojamientos = TraerAlojamiento();
 
             alojamientos = alojamientos
             .Where(a => a.codigoCiudad == ciudad &&
-            a.alojamientoDispobiles.Any(ad => ad.capacidadHabitacion.Any(ch => (ch.maximoInfantes + ch.maximoAdulto + ch.maximoMenores) >= capacidad)) &&
-            a.alojamientoDispobiles.Any(ad => ad.fechaHabitacion.Any(fh => fh.fechaDispHabitacion == fecha.Date)))
+            a.alojamientoDispobiles.Any(ad => ad.capacidadHabitacion.Any(ch => ch.maximoInfantes >= infantes && ch.maximoMenores >= menores && ch.maximoAdulto >= adultos)) &&
+            a.alojamientoDispobiles.Any(ad => ad.fechaHabitacion.Any(fh => fh.fechaDispHabitacion == fecha.Date && fh.cantHabXFecha > 0)))
             .ToList();
 
             return alojamientos;

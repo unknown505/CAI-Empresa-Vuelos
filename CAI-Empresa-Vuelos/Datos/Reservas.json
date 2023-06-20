@@ -1,0 +1,314 @@
+[
+  {
+    "Id": 1,
+    "Dni": 7987,
+    "Estado": "Pre-reserva",
+    "ItemsVuelo": [],
+    "ItemsAlojamiento": []
+  },
+  {
+    "Id": 2,
+    "Dni": 687,
+    "Estado": "Presupuesto",
+    "ItemsVuelo": [],
+    "ItemsAlojamiento": []
+  },
+  {
+    "Id": 3,
+    "Dni": 4054010,
+    "Estado": "Presupuesto",
+    "ItemsVuelo": [],
+    "ItemsAlojamiento": []
+  },
+  {
+    "Id": 4,
+    "Dni": 12345,
+    "Estado": "Presupuesto",
+    "ItemsVuelo": [
+      {
+        "Datos": "Vuelo:11111,Clase:Premium,Tipo Pasajero:Adulto, Precio:1486, Disponibilidad:2, Solicitados:2",
+        "Pasajeros": [
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          },
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          }
+        ]
+      },
+      {
+        "Datos": "Vuelo:11111,Clase:Business,Tipo Pasajero:Menor, Precio:4446, Disponibilidad:2, Solicitados:2",
+        "Pasajeros": [
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          },
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          }
+        ]
+      },
+      {
+        "Datos": "Vuelo:11111,Clase:Business,Tipo Pasajero:Infante, Precio:500, Disponibilidad:2, Solicitados:2",
+        "Pasajeros": [
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          },
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          }
+        ]
+      }
+    ],
+    "ItemsAlojamiento": [
+      {
+        "Datos": "Alojamiento:Riu Plaza España,Habitacion:Habitacion Doble de Lujo,Tarifa:307"
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Dni": 54321,
+    "Estado": "Presupuesto",
+    "ItemsVuelo": [
+      {
+        "Datos": "Vuelo:11111,Clase:Premium,Tipo Pasajero:Adulto, Precio:1486, Disponibilidad:2, Solicitados:2",
+        "Pasajeros": [
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          },
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          }
+        ]
+      },
+      {
+        "Datos": "Vuelo:11111,Clase:Business,Tipo Pasajero:Menor, Precio:4446, Disponibilidad:2, Solicitados:2",
+        "Pasajeros": [
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          },
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          }
+        ]
+      }
+    ],
+    "ItemsAlojamiento": [
+      {
+        "Datos": "Alojamiento:MAD,Fecha:12/8/2023 00:00:00,Habitacion:Habitacion Doble de Lujo,Tarifa:307"
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "Dni": 321,
+    "Estado": "Pre-reserva",
+    "ItemsVuelo": [
+      {
+        "Datos": "Vuelo:11111,Clase:Premium,Tipo Pasajero:Adulto, Precio:1486, Disponibilidad:2, Solicitados:2",
+        "Pasajeros": [
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          },
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          }
+        ]
+      },
+      {
+        "Datos": "Vuelo:11111,Clase:Business,Tipo Pasajero:Menor, Precio:4446, Disponibilidad:2, Solicitados:2",
+        "Pasajeros": [
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          },
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          }
+        ]
+      }
+    ],
+    "ItemsAlojamiento": [
+      {
+        "Datos": "Alojamiento:MAD,Fecha:12/08/2023,Habitacion:Habitacion Doble de Lujo,Tarifa:307"
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "Dni": 12345678,
+    "Estado": "Presupuesto",
+    "ItemsVuelo": [
+      {
+        "Datos": "Vuelo:11111,Clase:Economy,Tipo Pasajero:Adulto, Precio:840, Disponibilidad:60, Solicitados:1",
+        "Pasajeros": [
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          }
+        ]
+      }
+    ],
+    "ItemsAlojamiento": []
+  },
+  {
+    "Id": 8,
+    "Dni": 12345678,
+    "Estado": "Pre-reserva",
+    "ItemsVuelo": [
+      {
+        "Datos": "Vuelo:11111,Clase:Economy,Tipo Pasajero:Adulto, Precio:840, Disponibilidad:60, Solicitados:1",
+        "Pasajeros": [
+          {
+            "nombre": "sadasdasdasasas",
+            "apellido": "adsdasdas",
+            "dni": 1231,
+            "edad": 40
+          }
+        ]
+      }
+    ],
+    "ItemsAlojamiento": []
+  },
+  {
+    "Id": 9,
+    "Dni": 12345678,
+    "Estado": "Presupuesto",
+    "ItemsVuelo": [
+      {
+        "Datos": "Vuelo:11111,Clase:Economy,Tipo Pasajero:Adulto, Precio:840, Disponibilidad:59, Solicitados:1",
+        "Pasajeros": [
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          }
+        ]
+      }
+    ],
+    "ItemsAlojamiento": []
+  },
+  {
+    "Id": 10,
+    "Dni": 12345678,
+    "Estado": "Presupuesto",
+    "ItemsVuelo": [
+      {
+        "Datos": "Vuelo:11111,Clase:Economy,Tipo Pasajero:Adulto, Precio:840, Disponibilidad:59, Solicitados:1",
+        "Pasajeros": [
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          }
+        ]
+      }
+    ],
+    "ItemsAlojamiento": []
+  },
+  {
+    "Id": 11,
+    "Dni": 45101010,
+    "Estado": "Presupuesto",
+    "ItemsVuelo": [
+      {
+        "Datos": "Vuelo:11111,Clase:Economy,Tipo Pasajero:Adulto, Precio:840, Disponibilidad:59, Solicitados:1",
+        "Pasajeros": [
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          }
+        ]
+      },
+      {
+        "Datos": "Vuelo:11111,Clase:Economy,Tipo Pasajero:Adulto, Precio:840, Disponibilidad:59, Solicitados:1",
+        "Pasajeros": [
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          }
+        ]
+      }
+    ],
+    "ItemsAlojamiento": []
+  },
+  {
+    "Id": 12,
+    "Dni": 10101010,
+    "Estado": "Presupuesto",
+    "ItemsVuelo": [
+      {
+        "Datos": "Vuelo:11111,Clase:Economy,Tipo Pasajero:Adulto, Precio:840, Disponibilidad:59, Solicitados:1",
+        "Pasajeros": [
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          }
+        ]
+      },
+      {
+        "Datos": "Vuelo:11111,Clase:Premium,Tipo Pasajero:Adulto, Precio:1486, Disponibilidad:60, Solicitados:1",
+        "Pasajeros": [
+          {
+            "nombre": null,
+            "apellido": null,
+            "dni": 0,
+            "edad": 0
+          }
+        ]
+      }
+    ],
+    "ItemsAlojamiento": []
+  }
+]

@@ -1,14 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace CAI_Empresa_Vuelos.Entidades
 {
-    class RespuestaValidaciones
+    public class Vendedor
     {
-        public bool valido { get; set; }
-        public string mensaje { get; set; }
+        public string usuario { get; set; }
+
+        public string contrasena { get; set; }
     }
 }

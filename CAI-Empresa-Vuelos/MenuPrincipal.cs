@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CAI_Empresa_Vuelos
 {
-    public partial class Pantalla2 : Form
+    public partial class MenuPrincipal : Form
     {
-        public Pantalla2()
+        public MenuPrincipal()
         {
             InitializeComponent();
         }
@@ -26,16 +26,21 @@ namespace CAI_Empresa_Vuelos
 
         private void buttonReserva_Click(object sender, EventArgs e)
         {
-            Pantalla3 pantalal3 = new Pantalla3();
+            Busqueda pantalal3 = new Busqueda();
             pantalal3.Show();
             this.Hide();
         }
 
         private void buttonEdeReserva_Click(object sender, EventArgs e)
         {
-            Pantalla5 pantalal5 = new Pantalla5();
+            EstadoReserva pantalal5 = new EstadoReserva();
             pantalal5.Show();
             this.Hide();
+        }
+
+        private void buttonReclamos_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("No tiene acceso a esta sección.", "Acceso denegado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
     }
 }

@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 
 namespace CAI_Empresa_Vuelos.Entidades
 {
-    class Persona
+    class Cliente
     {
         public string nombre { get; set; }
         public string apellido { get; set; }
@@ -16,7 +16,6 @@ namespace CAI_Empresa_Vuelos.Entidades
         public string numeroTelefono { get; set; }
         public string mail { get; set; }
         public DateTime fechaNac { get; set; }
-
 
     }
 

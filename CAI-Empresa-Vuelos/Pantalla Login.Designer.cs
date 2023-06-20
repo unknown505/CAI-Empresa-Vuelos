@@ -140,7 +140,7 @@ namespace CAI_Empresa_Vuelos
             this.Controls.Add(this.labelUsuario);
             this.Controls.Add(this.Titulo);
             this.Name = "Pantalla1";
-            this.Text = "Form1";
+            this.Text = "Pantalla Login";
             this.Load += new System.EventHandler(this.Pantalla1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

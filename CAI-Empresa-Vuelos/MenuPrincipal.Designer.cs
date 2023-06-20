@@ -1,7 +1,7 @@
 ﻿
 namespace CAI_Empresa_Vuelos
 {
-    partial class Pantalla2
+    partial class MenuPrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -77,6 +77,7 @@ namespace CAI_Empresa_Vuelos
             this.buttonReclamos.TabIndex = 3;
             this.buttonReclamos.Text = "Reclamos";
             this.buttonReclamos.UseVisualStyleBackColor = true;
+            this.buttonReclamos.Click += new System.EventHandler(this.buttonReclamos_Click);
             // 
             // buttonVolver
             // 
@@ -100,7 +101,7 @@ namespace CAI_Empresa_Vuelos
             this.Controls.Add(this.buttonReserva);
             this.Controls.Add(this.label1);
             this.Name = "Pantalla2";
-            this.Text = "Pantalla2";
+            this.Text = "Menu principal";
             this.ResumeLayout(false);
             this.PerformLayout();
 

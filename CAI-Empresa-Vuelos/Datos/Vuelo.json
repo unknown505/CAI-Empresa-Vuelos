@@ -3,8 +3,8 @@
     "idVuelo": "11111",
     "origen": "Buenos Aires",
     "destino": "Miami",
-    "fechaSalida": "2023-08-12 20:50:00",
-    "fechaArribo": "2023-08-13 4:55:00",
+    "fechaSalida": "2023-08-12T20:50:00",
+    "fechaArribo": "2023-08-13T04:55:00",
     "tiempoVuelo": "09:05:00",
     "aerolinea": "American Airlines",
     "tarifas": [
@@ -12,7 +12,7 @@
         "clase": "Economy",
         "pasajero": "Adulto",
         "precio": 840,
-        "disponibilidad": 2
+        "disponibilidad": 59
       }
     ]
   },
@@ -20,8 +20,8 @@
     "idVuelo": "11111",
     "origen": "Buenos Aires",
     "destino": "Miami",
-    "fechaSalida": "2023-08-12 20:50:00",
-    "fechaArribo": "2023-08-13 4:55:00",
+    "fechaSalida": "2023-08-12T20:50:00",
+    "fechaArribo": "2023-08-13T04:55:00",
     "tiempoVuelo": "09:05:00",
     "aerolinea": "American Airlines",
     "tarifas": [
@@ -29,7 +29,7 @@
         "clase": "Premium",
         "pasajero": "Adulto",
         "precio": 1486,
-        "disponibilidad": 2
+        "disponibilidad": 60
       }
     ]
   },
@@ -37,16 +37,16 @@
     "idVuelo": "11111",
     "origen": "Buenos Aires",
     "destino": "Miami",
-    "fechaSalida": "2023-08-12 20:50:00",
-    "fechaArribo": "2023-08-13 4:55:00",
+    "fechaSalida": "2023-08-12T20:50:00",
+    "fechaArribo": "2023-08-13T04:55:00",
     "tiempoVuelo": "09:05:00",
     "aerolinea": "American Airlines",
     "tarifas": [
       {
         "clase": "Business",
-        "pasajero": "Adulto",
+        "pasajero": "Menor",
         "precio": 4446,
-        "disponibilidad": 2
+        "disponibilidad": 60
       }
     ]
   },
@@ -54,8 +54,8 @@
     "idVuelo": "11111",
     "origen": "Buenos Aires",
     "destino": "Miami",
-    "fechaSalida": "2023-08-12 20:50:00",
-    "fechaArribo": "2023-08-13 4:55:00",
+    "fechaSalida": "2023-08-12T20:50:00",
+    "fechaArribo": "2023-08-13T04:55:00",
     "tiempoVuelo": "09:05:00",
     "aerolinea": "American Airlines",
     "tarifas": [
@@ -63,7 +63,7 @@
         "clase": "Business",
         "pasajero": "Infante",
         "precio": 500,
-        "disponibilidad": 2
+        "disponibilidad": 55
       }
     ]
   },
@@ -71,8 +71,8 @@
     "idVuelo": "11122",
     "origen": "Buenos Aires",
     "destino": "Madrid",
-    "fechaSalida": "2023-09-03 21:35:00",
-    "fechaArribo": "2023-09-04 14:30:00",
+    "fechaSalida": "2023-09-03T21:35:00",
+    "fechaArribo": "2023-09-04T14:30:00",
     "tiempoVuelo": "11:55:00",
     "aerolinea": "Iberia",
     "tarifas": [
@@ -88,8 +88,8 @@
     "idVuelo": "11122",
     "origen": "Buenos Aires",
     "destino": "Madrid",
-    "fechaSalida": "2023-09-03 21:35:00",
-    "fechaArribo": "2023-09-04 14:30:00",
+    "fechaSalida": "2023-09-03T21:35:00",
+    "fechaArribo": "2023-09-04T14:30:00",
     "tiempoVuelo": "11:55:00",
     "aerolinea": "Iberia",
     "tarifas": [
@@ -105,8 +105,8 @@
     "idVuelo": "11122",
     "origen": "Buenos Aires",
     "destino": "Madrid",
-    "fechaSalida": "2023-09-03 21:35:00",
-    "fechaArribo": "2023-09-04 14:30:00",
+    "fechaSalida": "2023-09-03T21:35:00",
+    "fechaArribo": "2023-09-04T14:30:00",
     "tiempoVuelo": "11:55:00",
     "aerolinea": "Iberia",
     "tarifas": [
@@ -122,8 +122,8 @@
     "idVuelo": "11122",
     "origen": "Buenos Aires",
     "destino": "Madrid",
-    "fechaSalida": "2023-09-03 21:35:00",
-    "fechaArribo": "2023-09-04 14:30:00",
+    "fechaSalida": "2023-09-03T21:35:00",
+    "fechaArribo": "2023-09-04T14:30:00",
     "tiempoVuelo": "11:55:00",
     "aerolinea": "Iberia",
     "tarifas": [
@@ -139,8 +139,8 @@
     "idVuelo": "11133",
     "origen": "Madrid",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-09-13 17:10:00",
-    "fechaArribo": "2023-09-14 06:25:00",
+    "fechaSalida": "2023-09-13T17:10:00",
+    "fechaArribo": "2023-09-14T06:25:00",
     "tiempoVuelo": "18:08:00",
     "aerolinea": "Lufthansa",
     "tarifas": [
@@ -156,8 +156,8 @@
     "idVuelo": "11133",
     "origen": "Madrid",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-09-13 17:10:00",
-    "fechaArribo": "2023-09-14 06:25:00",
+    "fechaSalida": "2023-09-13T17:10:00",
+    "fechaArribo": "2023-09-14T06:25:00",
     "tiempoVuelo": "18:08:00",
     "aerolinea": "Lufthansa",
     "tarifas": [
@@ -173,8 +173,8 @@
     "idVuelo": "11133",
     "origen": "Madrid",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-09-13 17:10:00",
-    "fechaArribo": "2023-09-14 06:25:00",
+    "fechaSalida": "2023-09-13T17:10:00",
+    "fechaArribo": "2023-09-14T06:25:00",
     "tiempoVuelo": "18:08:00",
     "aerolinea": "Lufthansa",
     "tarifas": [
@@ -190,8 +190,8 @@
     "idVuelo": "11133",
     "origen": "Madrid",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-09-13 17:10:00",
-    "fechaArribo": "2023-09-14 06:25:00",
+    "fechaSalida": "2023-09-13T17:10:00",
+    "fechaArribo": "2023-09-14T06:25:00",
     "tiempoVuelo": "18:08:00",
     "aerolinea": "Lufthansa",
     "tarifas": [
@@ -207,8 +207,8 @@
     "idVuelo": "33111",
     "origen": "Buenos Aires",
     "destino": "Lima",
-    "fechaSalida": "2023-09-10 17:40:00",
-    "fechaArribo": "2023-09-10 20:35:00",
+    "fechaSalida": "2023-09-10T17:40:00",
+    "fechaArribo": "2023-09-10T20:35:00",
     "tiempoVuelo": "04:35:00",
     "aerolinea": "Latam",
     "tarifas": [
@@ -224,8 +224,8 @@
     "idVuelo": "33111",
     "origen": "Buenos Aires",
     "destino": "Lima",
-    "fechaSalida": "2023-09-10 17:40:00",
-    "fechaArribo": "2023-09-10 20:35:00",
+    "fechaSalida": "2023-09-10T17:40:00",
+    "fechaArribo": "2023-09-10T20:35:00",
     "tiempoVuelo": "04:35:00",
     "aerolinea": "Latam",
     "tarifas": [
@@ -241,8 +241,8 @@
     "idVuelo": "33111",
     "origen": "Buenos Aires",
     "destino": "Lima",
-    "fechaSalida": "2023-09-10 17:40:00",
-    "fechaArribo": "2023-09-10 20:35:00",
+    "fechaSalida": "2023-09-10T17:40:00",
+    "fechaArribo": "2023-09-10T20:35:00",
     "tiempoVuelo": "04:35:00",
     "aerolinea": "Latam",
     "tarifas": [
@@ -258,8 +258,8 @@
     "idVuelo": "33111",
     "origen": "Buenos Aires",
     "destino": "Lima",
-    "fechaSalida": "2023-09-10 17:40:00",
-    "fechaArribo": "2023-09-10 20:35:00",
+    "fechaSalida": "2023-09-10T17:40:00",
+    "fechaArribo": "2023-09-10T20:35:00",
     "tiempoVuelo": "04:35:00",
     "aerolinea": "Latam",
     "tarifas": [
@@ -275,8 +275,8 @@
     "idVuelo": "33222",
     "origen": "Lima",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-09-17 09:30:00",
-    "fechaArribo": "2023-09-17 16:00:00",
+    "fechaSalida": "2023-09-17T09:30:00",
+    "fechaArribo": "2023-09-17T16:00:00",
     "tiempoVuelo": "04:30:00",
     "aerolinea": "Latam",
     "tarifas": [
@@ -292,8 +292,8 @@
     "idVuelo": "33222",
     "origen": "Lima",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-09-17 09:30:00",
-    "fechaArribo": "2023-09-17 16:00:00",
+    "fechaSalida": "2023-09-17T09:30:00",
+    "fechaArribo": "2023-09-17T16:00:00",
     "tiempoVuelo": "04:30:00",
     "aerolinea": "Latam",
     "tarifas": [
@@ -309,8 +309,8 @@
     "idVuelo": "33222",
     "origen": "Lima",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-09-17 09:30:00",
-    "fechaArribo": "2023-09-17 16:00:00",
+    "fechaSalida": "2023-09-17T09:30:00",
+    "fechaArribo": "2023-09-17T16:00:00",
     "tiempoVuelo": "04:30:00",
     "aerolinea": "Latam",
     "tarifas": [
@@ -326,8 +326,8 @@
     "idVuelo": "33222",
     "origen": "Lima",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-09-17 09:30:00",
-    "fechaArribo": "2023-09-17 16:00:00",
+    "fechaSalida": "2023-09-17T09:30:00",
+    "fechaArribo": "2023-09-17T16:00:00",
     "tiempoVuelo": "04:30:00",
     "aerolinea": "Latam",
     "tarifas": [
@@ -343,8 +343,8 @@
     "idVuelo": "44111",
     "origen": "Buenos Aires",
     "destino": "Asuncion",
-    "fechaSalida": "2023-10-16 09:45:00",
-    "fechaArribo": "2023-10-16 11:45:00",
+    "fechaSalida": "2023-10-16T09:45:00",
+    "fechaArribo": "2023-10-16T11:45:00",
     "tiempoVuelo": "02:00:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -360,8 +360,8 @@
     "idVuelo": "44111",
     "origen": "Buenos Aires",
     "destino": "Asuncion",
-    "fechaSalida": "2023-10-16 09:45:00",
-    "fechaArribo": "2023-10-16 11:45:00",
+    "fechaSalida": "2023-10-16T09:45:00",
+    "fechaArribo": "2023-10-16T11:45:00",
     "tiempoVuelo": "02:00:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -377,8 +377,8 @@
     "idVuelo": "44111",
     "origen": "Buenos Aires",
     "destino": "Asuncion",
-    "fechaSalida": "2023-10-16 09:45:00",
-    "fechaArribo": "2023-10-16 11:45:00",
+    "fechaSalida": "2023-10-16T09:45:00",
+    "fechaArribo": "2023-10-16T11:45:00",
     "tiempoVuelo": "02:00:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -394,8 +394,8 @@
     "idVuelo": "44111",
     "origen": "Buenos Aires",
     "destino": "Asuncion",
-    "fechaSalida": "2023-10-16 09:45:00",
-    "fechaArribo": "2023-10-16 11:45:00",
+    "fechaSalida": "2023-10-16T09:45:00",
+    "fechaArribo": "2023-10-16T11:45:00",
     "tiempoVuelo": "02:00:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -411,8 +411,8 @@
     "idVuelo": "44222",
     "origen": "Asuncion",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-10-21 02:35:00",
-    "fechaArribo": "2023-10-21 04:30:00",
+    "fechaSalida": "2023-10-21T02:35:00",
+    "fechaArribo": "2023-10-21T04:30:00",
     "tiempoVuelo": "01:55:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -428,8 +428,8 @@
     "idVuelo": "44222",
     "origen": "Asuncion",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-10-21 02:35:00",
-    "fechaArribo": "2023-10-21 04:30:00",
+    "fechaSalida": "2023-10-21T02:35:00",
+    "fechaArribo": "2023-10-21T04:30:00",
     "tiempoVuelo": "01:55:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -445,8 +445,8 @@
     "idVuelo": "44222",
     "origen": "Asuncion",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-10-21 02:35:00",
-    "fechaArribo": "2023-10-21 04:30:00",
+    "fechaSalida": "2023-10-21T02:35:00",
+    "fechaArribo": "2023-10-21T04:30:00",
     "tiempoVuelo": "01:55:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -462,8 +462,8 @@
     "idVuelo": "44222",
     "origen": "Asuncion",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-10-21 02:35:00",
-    "fechaArribo": "2023-10-21 04:30:00",
+    "fechaSalida": "2023-10-21T02:35:00",
+    "fechaArribo": "2023-10-21T04:30:00",
     "tiempoVuelo": "01:55:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -479,8 +479,8 @@
     "idVuelo": "55555",
     "origen": "Buenos Aires",
     "destino": "Bariloche",
-    "fechaSalida": "2023-07-16 20:25:00",
-    "fechaArribo": "2023-07-16 22:45:00",
+    "fechaSalida": "2023-07-16T20:25:00",
+    "fechaArribo": "2023-07-16T22:45:00",
     "tiempoVuelo": "02:20:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -496,8 +496,8 @@
     "idVuelo": "55555",
     "origen": "Buenos Aires",
     "destino": "Bariloche",
-    "fechaSalida": "2023-07-16 20:25:00",
-    "fechaArribo": "2023-07-16 22:45:00",
+    "fechaSalida": "2023-07-16T20:25:00",
+    "fechaArribo": "2023-07-16T22:45:00",
     "tiempoVuelo": "02:20:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -513,8 +513,8 @@
     "idVuelo": "55555",
     "origen": "Buenos Aires",
     "destino": "Bariloche",
-    "fechaSalida": "2023-07-16 20:25:00",
-    "fechaArribo": "2023-07-16 22:45:00",
+    "fechaSalida": "2023-07-16T20:25:00",
+    "fechaArribo": "2023-07-16T22:45:00",
     "tiempoVuelo": "02:20:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -530,8 +530,8 @@
     "idVuelo": "55555",
     "origen": "Buenos Aires",
     "destino": "Bariloche",
-    "fechaSalida": "2023-07-16 20:25:00",
-    "fechaArribo": "2023-07-16 22:45:00",
+    "fechaSalida": "2023-07-16T20:25:00",
+    "fechaArribo": "2023-07-16T22:45:00",
     "tiempoVuelo": "02:20:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -547,8 +547,8 @@
     "idVuelo": "55511",
     "origen": "Bariloche",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-07-22 23:55:00",
-    "fechaArribo": "2023-07-22 01:40:00",
+    "fechaSalida": "2023-07-22T23:55:00",
+    "fechaArribo": "2023-07-22T01:40:00",
     "tiempoVuelo": "02:05:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -564,8 +564,8 @@
     "idVuelo": "55511",
     "origen": "Bariloche",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-07-22 23:55:00",
-    "fechaArribo": "2023-07-22 01:40:00",
+    "fechaSalida": "2023-07-22T23:55:00",
+    "fechaArribo": "2023-07-22T01:40:00",
     "tiempoVuelo": "02:05:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -581,8 +581,8 @@
     "idVuelo": "55511",
     "origen": "Bariloche",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-07-22 23:55:00",
-    "fechaArribo": "2023-07-22 01:40:00",
+    "fechaSalida": "2023-07-22T23:55:00",
+    "fechaArribo": "2023-07-22T01:40:00",
     "tiempoVuelo": "02:05:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -598,8 +598,8 @@
     "idVuelo": "55511",
     "origen": "Bariloche",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-07-22 23:55:00",
-    "fechaArribo": "2023-07-22 01:40:00",
+    "fechaSalida": "2023-07-22T23:55:00",
+    "fechaArribo": "2023-07-22T01:40:00",
     "tiempoVuelo": "02:05:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -615,8 +615,8 @@
     "idVuelo": "66666",
     "origen": "Buenos Aires",
     "destino": "Mendoza",
-    "fechaSalida": "2023-08-20 06:50:00",
-    "fechaArribo": "2023-08-20 08:45:00",
+    "fechaSalida": "2023-08-20T06:50:00",
+    "fechaArribo": "2023-08-20T08:45:00",
     "tiempoVuelo": "01:55:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -632,8 +632,8 @@
     "idVuelo": "66666",
     "origen": "Buenos Aires",
     "destino": "Mendoza",
-    "fechaSalida": "2023-08-20 06:50:00",
-    "fechaArribo": "2023-08-20 08:45:00",
+    "fechaSalida": "2023-08-20T06:50:00",
+    "fechaArribo": "2023-08-20T08:45:00",
     "tiempoVuelo": "01:55:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -649,8 +649,8 @@
     "idVuelo": "66666",
     "origen": "Buenos Aires",
     "destino": "Mendoza",
-    "fechaSalida": "2023-08-20 06:50:00",
-    "fechaArribo": "2023-08-20 08:45:00",
+    "fechaSalida": "2023-08-20T06:50:00",
+    "fechaArribo": "2023-08-20T08:45:00",
     "tiempoVuelo": "01:55:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -666,8 +666,8 @@
     "idVuelo": "66666",
     "origen": "Buenos Aires",
     "destino": "Mendoza",
-    "fechaSalida": "2023-08-20 06:50:00",
-    "fechaArribo": "2023-08-20 08:45:00",
+    "fechaSalida": "2023-08-20T06:50:00",
+    "fechaArribo": "2023-08-20T08:45:00",
     "tiempoVuelo": "01:55:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -683,8 +683,8 @@
     "idVuelo": "66611",
     "origen": "Mendoza",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-08-27 10:55:00",
-    "fechaArribo": "2023-08-27 12:30:00",
+    "fechaSalida": "2023-08-27T10:55:00",
+    "fechaArribo": "2023-08-27T12:30:00",
     "tiempoVuelo": "01:35:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -700,8 +700,8 @@
     "idVuelo": "66611",
     "origen": "Mendoza",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-08-27 10:55:00",
-    "fechaArribo": "2023-08-27 12:30:00",
+    "fechaSalida": "2023-08-27T10:55:00",
+    "fechaArribo": "2023-08-27T12:30:00",
     "tiempoVuelo": "01:35:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -717,8 +717,8 @@
     "idVuelo": "66611",
     "origen": "Mendoza",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-08-27 10:55:00",
-    "fechaArribo": "2023-08-27 12:30:00",
+    "fechaSalida": "2023-08-27T10:55:00",
+    "fechaArribo": "2023-08-27T12:30:00",
     "tiempoVuelo": "01:35:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -734,8 +734,8 @@
     "idVuelo": "66611",
     "origen": "Mendoza",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-08-27 10:55:00",
-    "fechaArribo": "2023-08-27 12:30:00",
+    "fechaSalida": "2023-08-27T10:55:00",
+    "fechaArribo": "2023-08-27T12:30:00",
     "tiempoVuelo": "01:35:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -751,8 +751,8 @@
     "idVuelo": "77777",
     "origen": "Buenos Aires",
     "destino": "Salta",
-    "fechaSalida": "2023-10-25 11:10:00",
-    "fechaArribo": "2023-10-25 13:20:00",
+    "fechaSalida": "2023-10-25T11:10:00",
+    "fechaArribo": "2023-10-25T13:20:00",
     "tiempoVuelo": "02:10:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -768,8 +768,8 @@
     "idVuelo": "77777",
     "origen": "Buenos Aires",
     "destino": "Salta",
-    "fechaSalida": "2023-10-25 11:10:00",
-    "fechaArribo": "2023-10-25 13:20:00",
+    "fechaSalida": "2023-10-25T11:10:00",
+    "fechaArribo": "2023-10-25T13:20:00",
     "tiempoVuelo": "02:10:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -785,8 +785,8 @@
     "idVuelo": "77711",
     "origen": "Buenos Aires",
     "destino": "Salta",
-    "fechaSalida": "2023-10-25 06:55:00",
-    "fechaArribo": "2023-10-25 09:05:00",
+    "fechaSalida": "2023-10-25T06:55:00",
+    "fechaArribo": "2023-10-25T09:05:00",
     "tiempoVuelo": "02:10:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -802,8 +802,8 @@
     "idVuelo": "77711",
     "origen": "Buenos Aires",
     "destino": "Salta",
-    "fechaSalida": "2023-10-25 06:55:00",
-    "fechaArribo": "2023-10-25 09:05:00",
+    "fechaSalida": "2023-10-25T06:55:00",
+    "fechaArribo": "2023-10-25T09:05:00",
     "tiempoVuelo": "02:10:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -819,8 +819,8 @@
     "idVuelo": "88888",
     "origen": "Salta",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-11-02 18:55:00",
-    "fechaArribo": "2023-11-02 20:55:00",
+    "fechaSalida": "2023-11-02T18:55:00",
+    "fechaArribo": "2023-11-02T20:55:00",
     "tiempoVuelo": "02:00:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -836,8 +836,8 @@
     "idVuelo": "88888",
     "origen": "Salta",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-11-02 18:55:00",
-    "fechaArribo": "2023-11-02 20:55:00",
+    "fechaSalida": "2023-11-02T18:55:00",
+    "fechaArribo": "2023-11-02T20:55:00",
     "tiempoVuelo": "02:00:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -853,8 +853,8 @@
     "idVuelo": "88888",
     "origen": "Salta",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-11-02 18:55:00",
-    "fechaArribo": "2023-11-02 20:55:00",
+    "fechaSalida": "2023-11-02T18:55:00",
+    "fechaArribo": "2023-11-02T20:55:00",
     "tiempoVuelo": "02:00:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -870,8 +870,8 @@
     "idVuelo": "088888",
     "origen": "Salta",
     "destino": "Buenos Aires",
-    "fechaSalida": "2023-11-02 18:55:00",
-    "fechaArribo": "2023-11-02 20:55:00",
+    "fechaSalida": "2023-11-02T18:55:00",
+    "fechaArribo": "2023-11-02T20:55:00",
     "tiempoVuelo": "02:00:00",
     "aerolinea": "Aerolineas Argentinas",
     "tarifas": [
@@ -883,5 +883,4 @@
       }
     ]
   }
-
 ]

@@ -1,7 +1,7 @@
 ﻿
 namespace CAI_Empresa_Vuelos
 {
-    partial class Pantalla3
+    partial class Busqueda
     {
         /// <summary>
         /// Required designer variable.
@@ -46,12 +46,16 @@ namespace CAI_Empresa_Vuelos
             this.labelErrorDestino = new System.Windows.Forms.Label();
             this.labelErrorFecha = new System.Windows.Forms.Label();
             this.dateTimePickerFecha = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.Confirmar = new System.Windows.Forms.Button();
             this.buttonAlojamiento = new System.Windows.Forms.Button();
+            this.labelAdultos = new System.Windows.Forms.Label();
+            this.labelMenores = new System.Windows.Forms.Label();
+            this.labelInfantes = new System.Windows.Forms.Label();
+            this.textBoxAdultos = new System.Windows.Forms.TextBox();
+            this.textBoxMenores = new System.Windows.Forms.TextBox();
+            this.textBoxInfantes = new System.Windows.Forms.TextBox();
+            this.Destino = new System.Windows.Forms.Label();
+            this.Origen = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -142,7 +146,7 @@ namespace CAI_Empresa_Vuelos
             // Lblinfo
             // 
             this.Lblinfo.AutoSize = true;
-            this.Lblinfo.Location = new System.Drawing.Point(29, 177);
+            this.Lblinfo.Location = new System.Drawing.Point(29, 184);
             this.Lblinfo.Name = "Lblinfo";
             this.Lblinfo.Size = new System.Drawing.Size(0, 15);
             this.Lblinfo.TabIndex = 12;
@@ -150,9 +154,9 @@ namespace CAI_Empresa_Vuelos
             // checkedListBox1
             // 
             this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(29, 205);
+            this.checkedListBox1.Location = new System.Drawing.Point(29, 211);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(606, 94);
+            this.checkedListBox1.Size = new System.Drawing.Size(606, 76);
             this.checkedListBox1.TabIndex = 15;
             this.checkedListBox1.Visible = false;
             // 
@@ -185,6 +189,7 @@ namespace CAI_Empresa_Vuelos
             // labelErrorOrigen
             // 
             this.labelErrorOrigen.AutoSize = true;
+            this.labelErrorOrigen.ForeColor = System.Drawing.Color.Red;
             this.labelErrorOrigen.Location = new System.Drawing.Point(67, 138);
             this.labelErrorOrigen.Name = "labelErrorOrigen";
             this.labelErrorOrigen.Size = new System.Drawing.Size(0, 15);
@@ -193,6 +198,7 @@ namespace CAI_Empresa_Vuelos
             // labelErrorDestino
             // 
             this.labelErrorDestino.AutoSize = true;
+            this.labelErrorDestino.ForeColor = System.Drawing.Color.Red;
             this.labelErrorDestino.Location = new System.Drawing.Point(247, 139);
             this.labelErrorDestino.Name = "labelErrorDestino";
             this.labelErrorDestino.Size = new System.Drawing.Size(0, 15);
@@ -201,6 +207,7 @@ namespace CAI_Empresa_Vuelos
             // labelErrorFecha
             // 
             this.labelErrorFecha.AutoSize = true;
+            this.labelErrorFecha.ForeColor = System.Drawing.Color.Red;
             this.labelErrorFecha.Location = new System.Drawing.Point(452, 139);
             this.labelErrorFecha.Name = "labelErrorFecha";
             this.labelErrorFecha.Size = new System.Drawing.Size(0, 15);
@@ -215,46 +222,16 @@ namespace CAI_Empresa_Vuelos
             this.dateTimePickerFecha.TabIndex = 23;
             this.dateTimePickerFecha.Visible = false;
             // 
-            // button1
+            // Confirmar
             // 
-            this.button1.Location = new System.Drawing.Point(687, 397);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(83, 28);
-            this.button1.TabIndex = 30;
-            this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(641, 207);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(34, 23);
-            this.textBox1.TabIndex = 31;
-            this.textBox1.Visible = false;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(641, 230);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(34, 23);
-            this.textBox2.TabIndex = 32;
-            this.textBox2.Visible = false;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(641, 252);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(34, 23);
-            this.textBox3.TabIndex = 33;
-            this.textBox3.Visible = false;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(641, 275);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(34, 23);
-            this.textBox4.TabIndex = 34;
-            this.textBox4.Visible = false;
+            this.Confirmar.Location = new System.Drawing.Point(687, 397);
+            this.Confirmar.Name = "Confirmar";
+            this.Confirmar.Size = new System.Drawing.Size(83, 28);
+            this.Confirmar.TabIndex = 30;
+            this.Confirmar.Text = "Confirmar";
+            this.Confirmar.UseVisualStyleBackColor = true;
+            this.Confirmar.Visible = false;
+            this.Confirmar.Click += new System.EventHandler(this.Reservar_Click);
             // 
             // buttonAlojamiento
             // 
@@ -267,17 +244,98 @@ namespace CAI_Empresa_Vuelos
             this.buttonAlojamiento.Visible = false;
             this.buttonAlojamiento.Click += new System.EventHandler(this.buttonAlojamiento_Click);
             // 
-            // Pantalla3
+            // labelAdultos
+            // 
+            this.labelAdultos.AutoSize = true;
+            this.labelAdultos.Location = new System.Drawing.Point(79, 159);
+            this.labelAdultos.Name = "labelAdultos";
+            this.labelAdultos.Size = new System.Drawing.Size(48, 15);
+            this.labelAdultos.TabIndex = 36;
+            this.labelAdultos.Text = "Adultos";
+            this.labelAdultos.Visible = false;
+            // 
+            // labelMenores
+            // 
+            this.labelMenores.AutoSize = true;
+            this.labelMenores.Location = new System.Drawing.Point(285, 161);
+            this.labelMenores.Name = "labelMenores";
+            this.labelMenores.Size = new System.Drawing.Size(53, 15);
+            this.labelMenores.TabIndex = 37;
+            this.labelMenores.Text = "Menores";
+            this.labelMenores.Visible = false;
+            // 
+            // labelInfantes
+            // 
+            this.labelInfantes.AutoSize = true;
+            this.labelInfantes.Location = new System.Drawing.Point(476, 161);
+            this.labelInfantes.Name = "labelInfantes";
+            this.labelInfantes.Size = new System.Drawing.Size(49, 15);
+            this.labelInfantes.TabIndex = 38;
+            this.labelInfantes.Text = "Infantes";
+            this.labelInfantes.Visible = false;
+            // 
+            // textBoxAdultos
+            // 
+            this.textBoxAdultos.Location = new System.Drawing.Point(132, 156);
+            this.textBoxAdultos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxAdultos.Name = "textBoxAdultos";
+            this.textBoxAdultos.Size = new System.Drawing.Size(110, 23);
+            this.textBoxAdultos.TabIndex = 39;
+            this.textBoxAdultos.Visible = false;
+            // 
+            // textBoxMenores
+            // 
+            this.textBoxMenores.Location = new System.Drawing.Point(341, 158);
+            this.textBoxMenores.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxMenores.Name = "textBoxMenores";
+            this.textBoxMenores.Size = new System.Drawing.Size(110, 23);
+            this.textBoxMenores.TabIndex = 40;
+            this.textBoxMenores.Visible = false;
+            // 
+            // textBoxInfantes
+            // 
+            this.textBoxInfantes.Location = new System.Drawing.Point(532, 158);
+            this.textBoxInfantes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxInfantes.Name = "textBoxInfantes";
+            this.textBoxInfantes.Size = new System.Drawing.Size(110, 23);
+            this.textBoxInfantes.TabIndex = 41;
+            this.textBoxInfantes.Visible = false;
+            // 
+            // Destino
+            // 
+            this.Destino.AutoSize = true;
+            this.Destino.Location = new System.Drawing.Point(200, 116);
+            this.Destino.Name = "Destino";
+            this.Destino.Size = new System.Drawing.Size(47, 15);
+            this.Destino.TabIndex = 42;
+            this.Destino.Text = "Destino";
+            this.Destino.Visible = false;
+            // 
+            // Origen
+            // 
+            this.Origen.AutoSize = true;
+            this.Origen.Location = new System.Drawing.Point(16, 116);
+            this.Origen.Name = "Origen";
+            this.Origen.Size = new System.Drawing.Size(43, 15);
+            this.Origen.TabIndex = 43;
+            this.Origen.Text = "Origen";
+            this.Origen.Visible = false;
+            // 
+            // Busqueda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Origen);
+            this.Controls.Add(this.Destino);
+            this.Controls.Add(this.textBoxInfantes);
+            this.Controls.Add(this.textBoxMenores);
+            this.Controls.Add(this.textBoxAdultos);
+            this.Controls.Add(this.labelInfantes);
+            this.Controls.Add(this.labelMenores);
+            this.Controls.Add(this.labelAdultos);
             this.Controls.Add(this.buttonAlojamiento);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Confirmar);
             this.Controls.Add(this.dateTimePickerFecha);
             this.Controls.Add(this.labelErrorFecha);
             this.Controls.Add(this.labelErrorDestino);
@@ -295,8 +353,8 @@ namespace CAI_Empresa_Vuelos
             this.Controls.Add(this.Alojamientos);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Pantalla3";
-            this.Text = "Pantalla3";
+            this.Name = "Busqueda";
+            this.Text = "Busqueda";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -321,11 +379,16 @@ namespace CAI_Empresa_Vuelos
         private System.Windows.Forms.Label labelErrorDestino;
         private System.Windows.Forms.Label labelErrorFecha;
         private System.Windows.Forms.DateTimePicker dateTimePickerFecha;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Button Reservar;
         private System.Windows.Forms.Button buttonAlojamiento;
+        private System.Windows.Forms.Label labelAdultos;
+        private System.Windows.Forms.Label labelMenores;
+        private System.Windows.Forms.Label labelInfantes;
+        private System.Windows.Forms.TextBox textBoxAdultos;
+        private System.Windows.Forms.TextBox textBoxMenores;
+        private System.Windows.Forms.TextBox textBoxInfantes;
+        private System.Windows.Forms.Label Destino;
+        private System.Windows.Forms.Label Origen;
+        private System.Windows.Forms.Button Confirmar;
     }
 }

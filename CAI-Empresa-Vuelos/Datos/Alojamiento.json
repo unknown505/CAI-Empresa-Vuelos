@@ -1,6 +1,6 @@
 [
   {
-    "idAlojamientos": "MAD",
+    "idAlojamientos": "RIU",
     "nombreAlojamiento": "Riu Plaza España",
     "codigoCiudad": "MAD",
     "direccion": "Calle Gran Vía 84, 28013 Madrid, Centro, España",
@@ -18,49 +18,23 @@
         ],
         "fechaHabitacion": [
           {
-            "fechaDispHabitacion": "2023-08-12T00:00:00",
-            "cantHabXFecha": 3
+            "fechaDispHabitacion": "2023-09-04T23:00:00",
+            "cantHabXFecha": 30
           }
         ]
       }
     ]
   },
   {
-    "idAlojamientos": "BAR",
-    "nombreAlojamiento": "Gran Hotel",
-    "codigoCiudad": "BAR",
-    "direccion": "Calle Asamblea 44, 24513 Barcelona, Centro, España",
-    "calificacion": "5 estrellas",
-    "alojamientoDispobiles": [
-      {
-        "nombreHabitacion": "Habitacion Simple de Lujo",
-        "tarifaHabitacion": 500,
-        "capacidadHabitacion": [
-          {
-            "maximoAdulto": 1,
-            "maximoMenores": 0,
-            "maximoInfantes": 0
-          }
-        ],
-        "fechaHabitacion": [
-          {
-            "fechaDispHabitacion": "2023-09-14T00:00:00",
-            "cantHabXFecha": 2
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "idAlojamientos": "AND",
-    "nombreAlojamiento": "Hotel Granja",
-    "codigoCiudad": "AND",
-    "direccion": "Calle Stopler 23, 24053 Andalucia, Centro, España",
+    "idAlojamientos": "RIU",
+    "nombreAlojamiento": "Riu Plaza España",
+    "codigoCiudad": "MAD",
+    "direccion": "Calle Gran Vía 84, 28013 Madrid, Centro, España",
     "calificacion": "4 estrellas",
     "alojamientoDispobiles": [
       {
-        "nombreHabitacion": "Habitacion Triple",
-        "tarifaHabitacion": 240,
+        "nombreHabitacion": "Habitacion Cuadruple de Lujo",
+        "tarifaHabitacion": 352,
         "capacidadHabitacion": [
           {
             "maximoAdulto": 2,
@@ -70,8 +44,892 @@
         ],
         "fechaHabitacion": [
           {
-            "fechaDispHabitacion": "2023-11-29T00:00:00",
-            "cantHabXFecha": 3
+            "fechaDispHabitacion": "2023-09-04T23:00:00",
+            "cantHabXFecha": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "RIU",
+    "nombreAlojamiento": "Riu Plaza España",
+    "codigoCiudad": "MAD",
+    "direccion": "Calle Gran Vía 84, 28013 Madrid, Centro, España",
+    "calificacion": "3 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Deluxe Room Superior",
+        "tarifaHabitacion": 347,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 0,
+            "maximoInfantes": 1
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-09-04T23:00:00",
+            "cantHabXFecha": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "RIU",
+    "nombreAlojamiento": "Riu Plaza España",
+    "codigoCiudad": "MAD",
+    "direccion": "Calle Gran Vía 84, 28013 Madrid, Centro, España",
+    "calificacion": "4 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Cuadruple Superior",
+        "tarifaHabitacion": 378,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 2,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-09-04T23:00:00",
+            "cantHabXFecha": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "RIU",
+    "nombreAlojamiento": "Riu Plaza España",
+    "codigoCiudad": "MAD",
+    "direccion": "Calle Gran Vía 84, 28013 Madrid, Centro, España",
+    "calificacion": "4 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Deluxe Room",
+        "tarifaHabitacion": 390,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 2,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-09-04T23:00:00",
+            "cantHabXFecha": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "RIU",
+    "nombreAlojamiento": "Riu Plaza España",
+    "codigoCiudad": "MAD",
+    "direccion": "Calle Gran Vía 84, 28013 Madrid, Centro, España",
+    "calificacion": "4 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Doble de Lujo",
+        "tarifaHabitacion": 293,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 1,
+            "maximoMenores": 1,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-09-04T23:00:00",
+            "cantHabXFecha": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "RIU",
+    "nombreAlojamiento": "Riu Plaza España",
+    "codigoCiudad": "MAD",
+    "direccion": "Calle Gran Vía 84, 28013 Madrid, Centro, España",
+    "calificacion": "4 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Deluxe Room, City View",
+        "tarifaHabitacion": 320,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 1,
+            "maximoMenores": 1,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-09-04T23:00:00",
+            "cantHabXFecha": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "INN",
+    "nombreAlojamiento": "Holiday Inn Miami Beach Oceanfront",
+    "codigoCiudad": "MIA",
+    "direccion": "4333 Collins Ave., Miami Beach, FL 33140, Estados Unidos",
+    "calificacion": "3 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Standard Room",
+        "tarifaHabitacion": 93,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 0,
+            "maximoInfantes": 2
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-08-13T23:00:00",
+            "cantHabXFecha": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "INN",
+    "nombreAlojamiento": "Holiday Inn Miami Beach Oceanfront",
+    "codigoCiudad": "MIA",
+    "direccion": "4333 Collins Ave., Miami Beach, FL 33140, Estados Unidos",
+    "calificacion": "3 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Standard Room, Ocean View",
+        "tarifaHabitacion": 101,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 0,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-08-13T23:00:00",
+            "cantHabXFecha": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "PAL",
+    "nombreAlojamiento": "The Palms Hotel & Spa",
+    "codigoCiudad": "MIA",
+    "direccion": "3025 Collins Ave., Miami Beach, FL 33140, Estados Unidos",
+    "calificacion": "4 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Premier Room, City View",
+        "tarifaHabitacion": 174,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 0,
+            "maximoInfantes": 2
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-08-13T23:00:00",
+            "cantHabXFecha": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "PAL",
+    "nombreAlojamiento": "The Palms Hotel & Spa",
+    "codigoCiudad": "MIA",
+    "direccion": "3025 Collins Ave., Miami Beach, FL 33140, Estados Unidos",
+    "calificacion": "4 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "City Room, City View",
+        "tarifaHabitacion": 167,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 0,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-08-13T23:00:00",
+            "cantHabXFecha": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "CEN",
+    "nombreAlojamiento": "Century Hotel",
+    "codigoCiudad": "MIA",
+    "direccion": "140 Ocean Dr., Miami Beach, FL 33140, Estados Unidos",
+    "calificacion": "4 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Room 1 King Bed",
+        "tarifaHabitacion": 99,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 1,
+            "maximoMenores": 0,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-08-13T23:00:00",
+            "cantHabXFecha": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "MAR",
+    "nombreAlojamiento": "Hotel Miramar",
+    "codigoCiudad": "LIM",
+    "direccion": "Bolognesi 191, Lima 15074, Perú",
+    "calificacion": "3 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion cuadruple estandar",
+        "tarifaHabitacion": 123,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 2,
+            "maximoInfantes": 1
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-09-10T23:00:00",
+            "cantHabXFecha": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "MIR",
+    "nombreAlojamiento": "Hotel Estelar Miraflores",
+    "codigoCiudad": "LIM",
+    "direccion": "Av. Alfredo Benavides 415, Miraflores 15074, Peru",
+    "calificacion": "4 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Standard Twin Room, Non Smoking",
+        "tarifaHabitacion": 136,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 2,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-09-10T23:00:00",
+            "cantHabXFecha": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "SAN",
+    "nombreAlojamiento": "Hotel Estelar San Isidro",
+    "codigoCiudad": "LIM",
+    "direccion": "Bolognesi 191, Lima 15074, Peru",
+    "calificacion": "3 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Junior Room",
+        "tarifaHabitacion": 92,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 1,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-09-10T23:00:00",
+            "cantHabXFecha": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "SOL",
+    "nombreAlojamiento": "Costa del Sol Wyndham Lima City",
+    "codigoCiudad": "LIM",
+    "direccion": "Av. Gral. Salaverry 3010, San Isidro 15076, Perú",
+    "calificacion": "4 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Twin Estandar",
+        "tarifaHabitacion": 96,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 0,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-09-10T23:00:00",
+            "cantHabXFecha": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "MIR",
+    "nombreAlojamiento": "Hotel Estelar Miraflores",
+    "codigoCiudad": "LIM",
+    "direccion": "Av. Alfredo Benavides 415, Miraflores 15074, Peru",
+    "calificacion": "4 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Superior",
+        "tarifaHabitacion": 59,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 1,
+            "maximoMenores": 1,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-09-10T23:00:00",
+            "cantHabXFecha": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "SAN",
+    "nombreAlojamiento": "Hotel Estelar San Isidro",
+    "codigoCiudad": "LIM",
+    "direccion": "Bolognesi 191, Lima 15074, Peru",
+    "calificacion": "3 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Twin Estandar",
+        "tarifaHabitacion": 39,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 1,
+            "maximoMenores": 0,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-09-10T23:00:00",
+            "cantHabXFecha": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "CEC",
+    "nombreAlojamiento": "Hotel Cecilia",
+    "codigoCiudad": "ASU",
+    "direccion": "Estados Unidos 341 Esq. Mariscal Estigarribia, Asunción 1514 Paraguay",
+    "calificacion": "3 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Family Room Standard",
+        "tarifaHabitacion": 123,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 2,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-10-16T23:00:00",
+            "cantHabXFecha": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "GUA",
+    "nombreAlojamiento": "Hotel Guaraní Asunción",
+    "codigoCiudad": "ASU",
+    "direccion": "Oliva esq. Independencia Nacional 3107, Asunción, Paraguay",
+    "calificacion": "4 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Suite Doble con Vista al Río",
+        "tarifaHabitacion": 95,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 1,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-10-16T23:00:00",
+            "cantHabXFecha": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "FIV",
+    "nombreAlojamiento": "Five Hotel & Residences",
+    "codigoCiudad": "ASU",
+    "direccion": "Dr. Francisco Morra 295 esq, Asunción, Paraguay",
+    "calificacion": "5 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Doble Estandar",
+        "tarifaHabitacion": 46,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 1,
+            "maximoMenores": 1,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-10-16T23:00:00",
+            "cantHabXFecha": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "ESP",
+    "nombreAlojamiento": "Esplendor by Wyndham Asunción",
+    "codigoCiudad": "ASU",
+    "direccion": "Av, Avenida Aviadores del Chaco 2822, Asunción 1726, Paraguay",
+    "calificacion": "4 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitación Doble Classic",
+        "tarifaHabitacion": 45,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 0,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-10-16T23:00:00",
+            "cantHabXFecha": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "DZZ",
+    "nombreAlojamiento": "Dazzler by Wyndham Asunción",
+    "codigoCiudad": "ASU",
+    "direccion": "Avenida Aviadores del Chaco, Asunción, Paraguay",
+    "calificacion": "4 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Twin Classic",
+        "tarifaHabitacion": 53,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 1,
+            "maximoMenores": 0,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-10-16T23:00:00",
+            "cantHabXFecha": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "PLA",
+    "nombreAlojamiento": "Hotel Plaza Bariloche",
+    "codigoCiudad": "CHE",
+    "direccion": "Vice Almte. O'Connor 431, R8400 San Carlos de Bariloche, Río Negro",
+    "calificacion": "2 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Cuadruple Estandar",
+        "tarifaHabitacion": 194,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 2,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-07-16T23:00:00",
+            "cantHabXFecha": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "TIE",
+    "nombreAlojamiento": "Hotel Tierra Gaucha",
+    "codigoCiudad": "CHE",
+    "direccion": "Vice Almte. O'Connor 766, R8400 San Carlos de Bariloche, Río Negro",
+    "calificacion": "1 estrella",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Triple Estandar",
+        "tarifaHabitacion": 166,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 1,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-07-16T23:00:00",
+            "cantHabXFecha": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "CON",
+    "nombreAlojamiento": "Hotel Concept Bariloche",
+    "codigoCiudad": "CHE",
+    "direccion": "Francisco Pascasio Moreno 136, R8400 San Carlos de Bariloche, Río Negro",
+    "calificacion": "2 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Doble Estandar",
+        "tarifaHabitacion": 130,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 0,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-07-16T23:00:00",
+            "cantHabXFecha": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "LAG",
+    "nombreAlojamiento": "Hotel 7 Lagos",
+    "codigoCiudad": "CHE",
+    "direccion": "Francisco Pascasio Moreno 534, R8400 San Carlos de Bariloche, Río Negro",
+    "calificacion": "2 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Doble Estandar",
+        "tarifaHabitacion": 123,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 1,
+            "maximoMenores": 0,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-07-16T23:00:00",
+            "cantHabXFecha": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "AME",
+    "nombreAlojamiento": "Amerian Executive Mendoza",
+    "codigoCiudad": "MEN",
+    "direccion": "San Lorenzo 660, M5500 Mendoza",
+    "calificacion": "2 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Doble de Lujo",
+        "tarifaHabitacion": 118,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 0,
+            "maximoInfantes": 1
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-08-20T23:00:00",
+            "cantHabXFecha": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "CRI",
+    "nombreAlojamiento": "Crillon Hotel Mendoza",
+    "codigoCiudad": "MEN",
+    "direccion": "Av. Perú 1065, M5500 Mendoza",
+    "calificacion": "3 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Estandar",
+        "tarifaHabitacion": 63,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 1,
+            "maximoMenores": 0,
+            "maximoInfantes": 1
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-08-20T23:00:00",
+            "cantHabXFecha": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "CER",
+    "nombreAlojamiento": "Hotel Cervantes",
+    "codigoCiudad": "MEN",
+    "direccion": "Calle Amigorena 65, M5500 Mendoza",
+    "calificacion": "3 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Doble Economy",
+        "tarifaHabitacion": 47,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 1,
+            "maximoMenores": 0,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-08-20T23:00:00",
+            "cantHabXFecha": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "HUE",
+    "nombreAlojamiento": "Huentala Hotel",
+    "codigoCiudad": "MEN",
+    "direccion": "Primitivo de la Reta 1007, M5500 Mendoza",
+    "calificacion": "4 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitacion Doble Estandar",
+        "tarifaHabitacion": 143,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 0,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-08-20T23:00:00",
+            "cantHabXFecha": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "HSA",
+    "nombreAlojamiento": "Hotel Salta",
+    "codigoCiudad": "SAL",
+    "direccion": "Buenos Aires Nº1, A4400 Salta",
+    "calificacion": "4 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitación Cuádruple Executive con Minibar",
+        "tarifaHabitacion": 192,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 2,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-10-25T23:00:00",
+            "cantHabXFecha": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "IAN",
+    "nombreAlojamiento": "Hotel Marilian",
+    "codigoCiudad": "SAL",
+    "direccion": "Buenos Aires 176, A4400 Salta",
+    "calificacion": "3 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitación Estandar",
+        "tarifaHabitacion": 179,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 1,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-10-25T23:00:00",
+            "cantHabXFecha": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "POS",
+    "nombreAlojamiento": "Posada del Sol Hotel",
+    "codigoCiudad": "SAL",
+    "direccion": "Alvarado 646, A4400 Salta",
+    "calificacion": "3 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitación Estandar",
+        "tarifaHabitacion": 84,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 1,
+            "maximoMenores": 1,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-10-25T23:00:00",
+            "cantHabXFecha": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "IAN",
+    "nombreAlojamiento": "Hotel Marilian",
+    "codigoCiudad": "SAL",
+    "direccion": "Buenos Aires 176, A4400 Salta",
+    "calificacion": "3 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitación Doble Estandar",
+        "tarifaHabitacion": 140,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 1,
+            "maximoMenores": 0,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-10-25T23:00:00",
+            "cantHabXFecha": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAlojamientos": "ALE",
+    "nombreAlojamiento": "Alejandro I - Hotel Internacional Salta",
+    "codigoCiudad": "SAL",
+    "direccion": "Balcarce 252, A4400 Salta",
+    "calificacion": "5 estrellas",
+    "alojamientoDispobiles": [
+      {
+        "nombreHabitacion": "Habitación Superior con Vista a la Calle",
+        "tarifaHabitacion": 140,
+        "capacidadHabitacion": [
+          {
+            "maximoAdulto": 2,
+            "maximoMenores": 0,
+            "maximoInfantes": 0
+          }
+        ],
+        "fechaHabitacion": [
+          {
+            "fechaDispHabitacion": "2023-10-25T23:00:00",
+            "cantHabXFecha": 20
           }
         ]
       }
